@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/agentpanel.tsx","./src/components/backtestview.tsx","./src/components/dashboard.tsx","./src/components/metriccard.tsx","./src/components/portfolioview.tsx","./src/components/signalbadge.tsx","./src/components/tickerinput.tsx","./src/hooks/useanalysis.ts","./src/lib/api.ts","./src/types/index.ts"],"version":"5.7.3"}

@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "agency-hedge-fund"
+version = "1.0.0"
+description = "AI-powered hedge fund with multi-agent analysis using LangGraph"
+authors = ["Agency Team"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "hedge_fund" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+# LLM / Agent orchestration
+langchain = ">=0.3.7"
+langgraph = ">=0.2.56"
+langchain-openai = "*"
+langchain-anthropic = "*"
+langchain-google-genai = "*"
+
+# Data validation & settings
+pydantic = ">=2.0"
+pydantic-settings = ">=2.0"
+
+# HTTP & data
+httpx = "*"
+pandas = "*"
+numpy = "*"
+
+# API server
+fastapi = "*"
+uvicorn = { version = "*", extras = ["standard"] }
+
+# Database
+sqlalchemy = ">=2.0"
+alembic = "*"
+
+# CLI / display
+colorama = "*"
+rich = "*"
+questionary = "*"
+
+# Environment
+python-dotenv = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=7.0"
+pytest-asyncio = "*"
+pytest-cov = "*"
+ruff = "*"
+mypy = "*"
+
+[tool.poetry.scripts]
+hedge-fund = "hedge_fund.cli:main"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

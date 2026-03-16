@@ -1,0 +1,363 @@
+{
+  "report_title": "US Aviation Parts International Trade Data Analysis",
+  "data_sources": [
+    "USITC DataWeb (dataweb.usitc.gov)",
+    "Observatory of Economic Complexity (OEC)",
+    "World Bank WITS / UN COMTRADE",
+    "World's Top Exports (worldstopexports.com)",
+    "FRED / BEA (Federal Reserve Economic Data)",
+    "US Census Bureau Foreign Trade Division",
+    "CSIS Section 232 Analysis",
+    "US Chamber of Commerce"
+  ],
+  "report_date": "2026-03-14",
+
+  "section_1_global_aircraft_parts_trade_HS8803": {
+    "description": "HS 8803 - Parts of aircraft, spacecraft, balloons, dirigibles, gliders",
+    "global_trade_value_by_year": {
+      "2019": {
+        "total_global_trade": "$93.9B",
+        "note": "Pre-COVID peak. Aircraft parts were the world's 27th most traded product."
+      },
+      "2020": {
+        "total_global_exports": "$66.4B",
+        "change_from_2019": "-34.3%",
+        "note": "COVID crash. Passenger traffic down 96% in April 2020. Orders for commercial aircraft dropped ~55%."
+      },
+      "2021": {
+        "note": "Partial recovery. US aircraft parts exports were $9.4B in Q1 2021 vs $15.2B in Q1 2019 (still 38% below)."
+      },
+      "2022": {
+        "total_global_trade": "$64.9B (estimated from subcategory sums)",
+        "subcategory_breakdown": {
+          "8803.30_other_aircraft_parts": "$51.0B",
+          "8803.20_undercarriages": "$7.11B",
+          "8803.90_other_parts": "$4.93B",
+          "8803.10_propellers_rotors": "$1.83B"
+        },
+        "note": "Strong recovery year. Fastest growing importers: Canada ($864M growth), Germany ($846M), UK ($645M), US ($633M)."
+      },
+      "2023": {
+        "total_global_exports": "$79.9B",
+        "note": "Full recovery and growth beyond 2019 levels."
+      },
+      "2024": {
+        "total_global_exports": "$79.7B",
+        "change_from_2023": "-0.3%",
+        "change_from_2020": "+20.0%",
+        "note": "Global aircraft parts trade essentially flat vs 2023, indicating market maturation."
+      }
+    },
+    "top_global_exporters_2022_OEC": {
+      "1_United_States": "$12.2B",
+      "2_United_Kingdom": "$10.2B",
+      "3_Germany": "$7.08B",
+      "4_France": "$6.71B",
+      "5_Canada": "$2.82B"
+    },
+    "top_global_exporters_2024_worldstopexports": {
+      "1_United_Kingdom": "Largest exporter",
+      "2_Germany": "Second largest",
+      "3_France": "Third largest",
+      "4_United_States": "Fourth largest",
+      "5_Singapore": "Fifth largest",
+      "top_5_share": "57.3% of global aircraft parts export revenues"
+    },
+    "top_global_importers_2022_OEC": {
+      "1_United_States": "$13.3B",
+      "2_France": "$9.38B",
+      "3_Germany": "$7.34B",
+      "4_United_Kingdom": "$4.73B",
+      "5_Canada": "$4.46B"
+    }
+  },
+
+  "section_2_US_trade_position": {
+    "us_aircraft_parts_exports_2022": "$12.2B",
+    "us_aircraft_parts_imports_2022": "$13.3B",
+    "us_trade_balance_aircraft_parts_2022": "-$1.14B (net importer for HS 8803 specifically)",
+    "us_broader_aerospace_trade_surplus_2024": "+$98.3B",
+    "us_broader_aerospace_exports_2024": "~$123B (aircraft parts are the nation's top export product)",
+    "note": "CRITICAL DISTINCTION: The US is a slight net IMPORTER of aircraft parts (HS 8803) but a massive net EXPORTER in broader aerospace (which includes complete aircraft). The $33B net import figure cited in Section 232 covers commercial aircraft + engines + parts combined.",
+
+    "countries_with_largest_import_surplus_2022": {
+      "1_France": "$2.67B more imports than exports",
+      "2_Canada": "$1.64B more imports than exports",
+      "3_United_States": "$1.14B more imports than exports",
+      "4_China": "$670M more imports than exports",
+      "5_Brazil": "$586M more imports than exports"
+    }
+  },
+
+  "section_3_US_imports_by_country": {
+    "description": "Countries the US IMPORTS aircraft parts FROM (where parts are sourced cheaply)",
+    "top_suppliers_to_US_2024_880330": {
+      "1_United_Kingdom": "$2.16B",
+      "2_Japan": "$1.81B",
+      "3_France": "$1.60B",
+      "4_Mexico": "$1.37B",
+      "5_Canada": "$1.31B"
+    },
+    "top_suppliers_to_US_880310_propellers_2024": {
+      "1_European_Union": "$110.9M",
+      "2_United_Kingdom": "$96.9M",
+      "3_Canada": "$55.1M",
+      "4_France": "$53.6M",
+      "5_Germany": "$30.1M"
+    },
+    "section_232_import_sources_combined_aircraft_engines_parts": {
+      "EU": "~50% of US imports",
+      "Canada": "~25% of US imports",
+      "United_Kingdom": "~8% of US imports",
+      "China_and_India_combined": "<3% of US imports",
+      "total_net_import_deficit": "$33B more imports than exports (commercial aircraft + engines + parts)"
+    },
+    "arbitrage_signal": "Parts flow INTO the US primarily from UK, Japan, France, Mexico, and Canada. These are countries where parts can be sourced at lower effective cost."
+  },
+
+  "section_4_US_exports_by_country": {
+    "description": "Countries the US EXPORTS aircraft parts TO (where demand/prices are higher)",
+    "top_destinations_broader_aerospace_2023": {
+      "1_France": "$10.8B",
+      "2_Germany": "$9.48B",
+      "3_Canada": "$8.72B",
+      "4_Brazil": "$7.24B",
+      "5_China": "$6.81B",
+      "6_Japan": "$4.96B"
+    },
+    "top_destinations_aircraft_parts_880330_2024": {
+      "1_Japan": "$778M",
+      "2_Italy": "$502M",
+      "3_South_Korea": "$422M",
+      "4_Israel": "$391M",
+      "5_Australia": "$390M"
+    },
+    "arbitrage_signal": "Parts flow OUT of the US primarily to Japan, Italy, South Korea, Israel, Australia - these represent markets where US-sourced parts command premium prices or where local supply is limited."
+  },
+
+  "section_5_subcategory_breakdown": {
+    "HS_8803_10_propellers_and_rotors": {
+      "global_trade_2022": "$1.83B",
+      "us_imports_2023": "$364M",
+      "us_exports_2023": "$308M",
+      "us_import_volume_2023": "785 tons",
+      "avg_import_price_per_ton": "$464,109",
+      "price_by_origin": {
+        "highest_UK": "$807,447/ton",
+        "lowest_South_Africa": "$63,814/ton",
+        "arbitrage_ratio": "12.6x price differential between cheapest and most expensive origin"
+      },
+      "trend": "6.5% import volume growth in 2023, fourth consecutive year of growth"
+    },
+    "HS_8803_20_undercarriages_landing_gear": {
+      "global_trade_2022": "$7.11B",
+      "us_monthly_imports_sample": "$117.5M/month",
+      "us_monthly_exports_sample": "$15.7M/month",
+      "trade_ratio": "US imports 7.5x more landing gear than it exports",
+      "civil_aircraft_imports": "$68.5M/month",
+      "military_aircraft_imports": "$44.5M/month",
+      "key_importers": ["Boeing Company", "Safran Landing Systems"],
+      "arbitrage_signal": "Massive import dependency for landing gear - the US imports nearly 8x what it exports monthly. Safran (France) dominates supply."
+    },
+    "HS_8803_30_other_parts_airplanes_helicopters": {
+      "global_trade_2022": "$51.0B",
+      "note": "By far the largest subcategory, representing ~79% of all HS 8803 trade"
+    },
+    "HS_8803_90_other_parts": {
+      "global_trade_2022": "$4.93B"
+    }
+  },
+
+  "section_6_turbojet_engine_parts_HS8411_91": {
+    "description": "HS 8411.91 - Parts of turbojet or turbopropeller engines (ENGINE parts specifically)",
+    "us_imports_2019": {
+      "total": "$15.53B",
+      "by_country": {
+        "1_France": "$4.8B",
+        "2_Japan": "$1.76B",
+        "3_Mexico": "$1.24B",
+        "4_Germany": "$1.15B",
+        "5_United_Kingdom": "$1.13B"
+      }
+    },
+    "global_exporters_2023": {
+      "1_European_Union": "$16.03B",
+      "2_United_Kingdom": "$12.92B",
+      "3_France": "$7.78B",
+      "4_Singapore": "$7.52B",
+      "5_Japan": "$2.83B"
+    },
+    "arbitrage_signal": "France dominates engine parts supply to the US ($4.8B). Singapore is a surprise #4 globally in engine parts exports ($7.52B) - it has become a major engine MRO hub. UK engine parts exports ($12.92B) are massive - Rolls-Royce effect.",
+    "key_insight": "Engine parts (HS 8411.91) represent a larger trade flow than aircraft structural parts (HS 8803). The US imported $15.53B in engine parts in 2019 alone."
+  },
+
+  "section_7_top_importing_companies": {
+    "description": "Largest US importers of aircraft parts (HTS 8803) from customs data",
+    "top_importers_HTS_8803": [
+      "Boeing Company (WA) - largest overall importer",
+      "Airbus Americas (AL) - significant importer for Mobile assembly line",
+      "Boeing Company (SC) - Charleston facility",
+      "Mitsubishi Logistics America Corporation (WA) - logistics for Japanese aerospace",
+      "Bombardier Aerospace"
+    ],
+    "key_suppliers_by_revenue": {
+      "GE_Aerospace": "$24.7B revenue",
+      "Safran": "$22.5B revenue",
+      "Honeywell_Aerospace": "$15.2B revenue",
+      "Rolls_Royce": "$16.9B revenue"
+    },
+    "engine_market_concentration": "4 companies (Rolls-Royce, Pratt & Whitney, CFM International, GE) control 99% of global aero engine market",
+    "raw_material_imports": "16% of major US aircraft manufacturers import raw materials, significantly higher than manufacturing sector average",
+    "note": "Individual shipment-level customs data is available through commercial providers (ImportKey, Datamyne, ImportInfo) but requires paid subscriptions. Free public data only shows aggregate trade flows."
+  },
+
+  "section_8_covid_impact_and_recovery": {
+    "2020_COVID_crash": {
+      "passenger_traffic_drop": "96% below 2019 in April 2020, 60% below for full year",
+      "aircraft_orders_drop": "~55% decline in commercial aircraft orders",
+      "deferred_deliveries": "5x increase in deferred deliveries",
+      "production_cut": "4,700 aircraft removed from production schedules",
+      "fleet_shrinkage": "18% smaller fleet projected by 2021",
+      "global_parts_exports": "$66.4B (down 34.3% from 2019)",
+      "MRO_economic_loss": "$3.6B collectively across MRO sector"
+    },
+    "2021_partial_recovery": {
+      "MRO_revenue_recovery": "+40% improvement from 2020",
+      "parts_sourcing_behavior": "Airlines cannibalized aircraft parts and green-time engines to avoid maintenance costs, starving aftermarket supply chain",
+      "purchasing_reduction": "Significant reduction in new parts purchasing in 2020-2021"
+    },
+    "2022_strong_recovery": {
+      "supply_chain_fragility": "Still unable to receive parts when needed, extending beyond 2023",
+      "worker_shortages": "Key constraint alongside stressed global transportation",
+      "fastest_growing_importers": "Canada, Germany, UK, US, Spain all surged"
+    },
+    "2023_full_recovery": {
+      "global_parts_exports": "$79.9B (surpassed 2019 levels)",
+      "MRO_labor_costs": "+7.3% worldwide, with 11.5% attrition in North America",
+      "material_costs": "+8.3% increase, well above pre-pandemic 3-4%"
+    },
+    "2024_maturation": {
+      "global_parts_exports": "$79.7B (flat vs 2023)",
+      "labor_cost_growth": "Slowing to +5.8% expected",
+      "parts_price_increases": "Projected 10%+ by some vendors"
+    },
+    "trade_flow_changes": {
+      "shift_1": "COVID created a parts SHORTAGE as airlines stopped buying and cannibalized existing fleet",
+      "shift_2": "Post-COVID, parts demand surged but supply chain couldn't keep up, creating price inflation",
+      "shift_3": "Nearshoring trend: ~33% of operators and 50% of OEMs/MROs expect to nearshore more, especially airframe and components",
+      "shift_4": "Asia-Pacific emergence: India and Southeast Asia gaining share due to competitive labor costs"
+    }
+  },
+
+  "section_9_geographic_arbitrage_opportunities": {
+    "source_countries_cheap_parts": {
+      "Mexico": {
+        "advantage": "Low labor cost + USMCA trade agreement (no tariffs)",
+        "us_imports_from": "$1.37B in 2024",
+        "growing_role": "Increasing nearshoring destination"
+      },
+      "South_Africa": {
+        "advantage": "Propeller/rotor parts at $63,814/ton vs UK at $807,447/ton (12.6x cheaper)",
+        "niche": "Low-cost manufacturing for rotary components"
+      },
+      "India": {
+        "advantage": "Competitive labor costs, central geographic location, growing MRO capacity",
+        "current_share": "<3% of US imports (combined with China)",
+        "growth_potential": "High - government actively promoting aerospace manufacturing"
+      },
+      "Singapore": {
+        "advantage": "10% of global MRO market, $8B aerospace industry, deep expertise",
+        "engine_parts_exports": "$7.52B globally (4th largest)",
+        "role": "Major engine overhaul and parts hub for Asia-Pacific"
+      },
+      "Japan": {
+        "us_imports_from": "$1.81B in 2024 (2nd largest supplier)",
+        "engine_parts": "$1.76B in turbojet parts (2019)",
+        "role": "Precision manufacturing, key Boeing supply chain partner"
+      }
+    },
+    "destination_markets_premium_prices": {
+      "Israel": {
+        "us_exports_to": "$391M in 2024",
+        "why_premium": "Military/defense demand, limited local supply, geopolitical urgency"
+      },
+      "South_Korea": {
+        "us_exports_to": "$422M in 2024",
+        "why_premium": "Growing airline fleet, limited domestic aerospace manufacturing"
+      },
+      "Australia": {
+        "us_exports_to": "$390M in 2024",
+        "why_premium": "Geographic isolation, small domestic industry, defense requirements"
+      },
+      "Brazil": {
+        "broader_aerospace_exports": "$7.24B in 2023",
+        "why_premium": "Large domestic aviation market, Embraer supply chain, import tariffs"
+      },
+      "Middle_East": {
+        "note": "Saudi Arabia received $1.97B in US aerospace exports in 2021",
+        "why_premium": "Massive fleet expansion (Emirates, Qatar, Etihad, Saudia), limited local MRO"
+      }
+    },
+    "bidirectional_flows_two_way_trade": {
+      "France": {
+        "us_imports_from_France": "$1.60B (parts)",
+        "us_exports_to_France": "$10.8B (broader aerospace)",
+        "explanation": "France sends parts (Safran, Airbus supply chain) while buying complete systems and US-origin parts",
+        "net_flow": "US is a massive NET EXPORTER to France in broader aerospace"
+      },
+      "Germany": {
+        "net_importer_aircraft_parts": "Germany imported $7.34B vs exported $7.08B in 2022",
+        "us_exports_to_Germany": "$9.48B broader aerospace",
+        "explanation": "German industry (Airbus Hamburg, MTU, Liebherr) both produces and consumes massive volumes"
+      },
+      "Canada": {
+        "us_imports_from_Canada": "$1.31B parts",
+        "us_exports_to_Canada": "$8.72B broader aerospace",
+        "explanation": "Deeply integrated supply chain (Bombardier, Pratt & Whitney Canada, CAE)"
+      }
+    }
+  },
+
+  "section_10_section_232_tariff_risk": {
+    "investigation_launched": "May 1, 2025",
+    "scope": "Commercial aircraft, jet engines, and parts for commercial aircraft and jet engines",
+    "deadline": "January 26, 2026",
+    "potential_tariff": "25% (based on pattern from steel/aluminum Section 232 tariffs)",
+    "import_exposure": "$33B net import deficit in commercial aircraft + engines + parts",
+    "source_breakdown": {
+      "EU": "~50% (~$16.5B)",
+      "Canada": "~25% (~$8.25B)",
+      "UK": "~8% (~$2.64B)",
+      "China_India": "<3%"
+    },
+    "industry_opposition": "US Chamber of Commerce, Business Roundtable, 205 stakeholders submitted comments opposing tariffs. Imported regional planes contain 40-50% US content.",
+    "arbitrage_implication": "If 25% tariffs are imposed on EU/Canada aircraft parts, this would DRAMATICALLY change trade flows and create massive arbitrage opportunities for parts sourced from non-tariffed countries (Mexico under USMCA, Singapore, India, Japan). Parts stockpiling before tariff implementation would be a major trade."
+  },
+
+  "section_11_MRO_regional_cost_differentials": {
+    "labor_cost_by_region": {
+      "North_America": "Highest cost, 11.5% attrition rate, 7.3% labor cost increase in 2023",
+      "Europe": "High cost but stable, strong engineering workforce",
+      "Asia_Pacific": "Lowest cost of skilled labor vs North America and Europe",
+      "India": "Competitive labor costs, central geographic location",
+      "Southeast_Asia": "$5.34B MRO market, growing at 5.94% CAGR"
+    },
+    "global_MRO_market_by_region": {
+      "North_America": "$19.4B",
+      "Europe": "$14.1B",
+      "Asia_Pacific": "$9.8B (and growing fastest)"
+    },
+    "nearshoring_trend": "1 in 3 operators and 50% of OEMs/MROs plan to nearshore more, especially airframe and components"
+  },
+
+  "section_12_key_arbitrage_conclusions": {
+    "finding_1": "The US is the world's largest BOTH exporter ($12.2B) and importer ($13.3B) of aircraft parts, with a small net import deficit of $1.14B. This means massive cross-border flows in BOTH directions = arbitrage opportunities.",
+    "finding_2": "Propeller/rotor parts show a 12.6x price differential between cheapest origin (South Africa $63,814/ton) and most expensive (UK $807,447/ton). This is the single largest documented price arbitrage in aviation parts.",
+    "finding_3": "Landing gear (HS 8803.20) shows extreme US import dependency - importing 7.5x more than exporting. Safran (France) dominates this market. Any supply disruption = price spike opportunity.",
+    "finding_4": "Engine parts (HS 8411.91) are a BIGGER market than structural parts. France alone supplies $4.8B to the US. Singapore has emerged as the #4 global engine parts exporter at $7.52B.",
+    "finding_5": "COVID created a massive dislocation: 34.3% drop in global parts trade, followed by supply chain shortages, cannibalization of existing fleet, and 8.3% material cost inflation. Post-COVID arbitrage persists as supply hasn't fully caught up with demand.",
+    "finding_6": "Section 232 tariffs (potentially 25%) on EU and Canadian aircraft parts would be the single largest trade policy disruption. ~75% of US aircraft parts imports come from EU + Canada. This creates pre-tariff stockpiling opportunities and post-tariff sourcing shifts to Mexico, Singapore, India, Japan.",
+    "finding_7": "Asia-Pacific MRO is growing fastest. Parts flowing from low-cost Asian sources (Singapore, India, Japan) to high-cost Western markets represent the primary geographic arbitrage vector going forward.",
+    "finding_8": "4 companies control 99% of the aero engine market. This concentration means parts pricing is NOT truly competitive - OEM monopoly pricing creates persistent arbitrage between OEM-sourced and aftermarket/PMA parts."
+  }
+}

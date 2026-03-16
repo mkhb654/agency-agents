@@ -1,0 +1,226 @@
+{
+  "analysis_date": "2026-03-14T03:43:16.637434",
+  "total_market_impact": 604100000,
+  "ads": [
+    {
+      "ad_number": "2024-03-51",
+      "title": "Pratt & Whitney PW1100G-JM Engines \u2014 Inspection of HPT Disks",
+      "affected_aircraft": "Airbus A320neo family",
+      "affected_engines": "PW1100G-JM",
+      "fleet_affected": 835,
+      "compliance_action": "Inspect and potentially replace HPT disks",
+      "parts_required": [
+        "HPT Disk",
+        "HPT Blade Retainers",
+        "Seals"
+      ],
+      "compliance_deadline": "Within 300 cycles or 6 months",
+      "estimated_part_cost_per_unit": 250000,
+      "total_market_impact": 208750000,
+      "arbitrage_signal": "CRITICAL \u2014 835 aircraft grounded, massive parts demand spike",
+      "status": "ACTIVE"
+    },
+    {
+      "ad_number": "2023-25-06",
+      "title": "Boeing 737 MAX \u2014 MCAS Flight Control Computer Software Update",
+      "affected_aircraft": "Boeing 737-8 MAX, 737-9 MAX",
+      "affected_engines": "CFM LEAP-1B",
+      "fleet_affected": 1200,
+      "compliance_action": "Software update + hardware inspection",
+      "parts_required": [
+        "Flight Control Computer",
+        "AOA Sensor",
+        "Wiring Harness"
+      ],
+      "compliance_deadline": "Prior to further flight",
+      "estimated_part_cost_per_unit": 50000,
+      "total_market_impact": 60000000,
+      "arbitrage_signal": "HIGH \u2014 mandatory update creates demand for FCC components",
+      "status": "ACTIVE"
+    },
+    {
+      "ad_number": "2024-12-15",
+      "title": "CFM56-7B Engines \u2014 Fan Blade Inspection",
+      "affected_aircraft": "Boeing 737-600/700/800/900 (NG series)",
+      "affected_engines": "CFM56-7B",
+      "fleet_affected": 4200,
+      "compliance_action": "Ultrasonic inspection of fan blades, replace if cracked",
+      "parts_required": [
+        "Fan Blades",
+        "Fan Blade Dovetail Slots",
+        "Retention Hardware"
+      ],
+      "compliance_deadline": "Within 500 cycles",
+      "estimated_part_cost_per_unit": 35000,
+      "total_market_impact": 147000000,
+      "arbitrage_signal": "MASSIVE \u2014 4,200 aircraft \u00d7 $35K per engine = $147M parts demand",
+      "status": "ACTIVE"
+    },
+    {
+      "ad_number": "2024-08-22",
+      "title": "Boeing 737-900ER \u2014 Door Plug Inspection and Reinforcement",
+      "affected_aircraft": "Boeing 737-9 MAX",
+      "affected_engines": "N/A",
+      "fleet_affected": 218,
+      "compliance_action": "Inspect and reinforce mid-exit door plugs",
+      "parts_required": [
+        "Door Plug Assembly",
+        "Hinge Pins",
+        "Guide Tracks",
+        "Fasteners"
+      ],
+      "compliance_deadline": "Before return to service",
+      "estimated_part_cost_per_unit": 75000,
+      "total_market_impact": 16350000,
+      "arbitrage_signal": "HIGH \u2014 Alaska Airlines incident drove urgent compliance",
+      "status": "ACTIVE"
+    },
+    {
+      "ad_number": "2023-15-08",
+      "title": "Cessna 172/182 \u2014 Fuel Tank Inspection",
+      "affected_aircraft": "Cessna 172R/S, 182T",
+      "affected_engines": "N/A",
+      "fleet_affected": 8000,
+      "compliance_action": "Inspect fuel tanks for cracks, replace if necessary",
+      "parts_required": [
+        "Fuel Tank Bladder",
+        "Fuel Tank Sealant",
+        "Gaskets"
+      ],
+      "compliance_deadline": "Within 100 hours TIS",
+      "estimated_part_cost_per_unit": 3500,
+      "total_market_impact": 28000000,
+      "arbitrage_signal": "HIGH VOLUME \u2014 8,000 aircraft, low cost per unit but massive volume",
+      "status": "ACTIVE"
+    },
+    {
+      "ad_number": "2024-20-10",
+      "title": "GE90 Engines \u2014 Stage 2 HPT Nozzle Inspection",
+      "affected_aircraft": "Boeing 777-200/300",
+      "affected_engines": "GE90-94B, GE90-115B",
+      "fleet_affected": 800,
+      "compliance_action": "Borescope inspection, replace nozzle segments if cracked",
+      "parts_required": [
+        "HPT Stage 2 Nozzle Segments",
+        "Seals",
+        "Thermal Barrier Coating"
+      ],
+      "compliance_deadline": "Within 1000 cycles",
+      "estimated_part_cost_per_unit": 180000,
+      "total_market_impact": 144000000,
+      "arbitrage_signal": "HIGH VALUE \u2014 $180K per engine, 800 aircraft affected",
+      "status": "ACTIVE"
+    }
+  ],
+  "parts_demand": {
+    "Fuel Tank Bladder": {
+      "total_demand": 8000,
+      "ads": [
+        "2023-15-08"
+      ]
+    },
+    "Fuel Tank Sealant": {
+      "total_demand": 8000,
+      "ads": [
+        "2023-15-08"
+      ]
+    },
+    "Gaskets": {
+      "total_demand": 8000,
+      "ads": [
+        "2023-15-08"
+      ]
+    },
+    "Fan Blades": {
+      "total_demand": 4200,
+      "ads": [
+        "2024-12-15"
+      ]
+    },
+    "Fan Blade Dovetail Slots": {
+      "total_demand": 4200,
+      "ads": [
+        "2024-12-15"
+      ]
+    },
+    "Retention Hardware": {
+      "total_demand": 4200,
+      "ads": [
+        "2024-12-15"
+      ]
+    },
+    "Seals": {
+      "total_demand": 1635,
+      "ads": [
+        "2024-03-51",
+        "2024-20-10"
+      ]
+    },
+    "Flight Control Computer": {
+      "total_demand": 1200,
+      "ads": [
+        "2023-25-06"
+      ]
+    },
+    "AOA Sensor": {
+      "total_demand": 1200,
+      "ads": [
+        "2023-25-06"
+      ]
+    },
+    "Wiring Harness": {
+      "total_demand": 1200,
+      "ads": [
+        "2023-25-06"
+      ]
+    },
+    "HPT Disk": {
+      "total_demand": 835,
+      "ads": [
+        "2024-03-51"
+      ]
+    },
+    "HPT Blade Retainers": {
+      "total_demand": 835,
+      "ads": [
+        "2024-03-51"
+      ]
+    },
+    "HPT Stage 2 Nozzle Segments": {
+      "total_demand": 800,
+      "ads": [
+        "2024-20-10"
+      ]
+    },
+    "Thermal Barrier Coating": {
+      "total_demand": 800,
+      "ads": [
+        "2024-20-10"
+      ]
+    },
+    "Door Plug Assembly": {
+      "total_demand": 218,
+      "ads": [
+        "2024-08-22"
+      ]
+    },
+    "Hinge Pins": {
+      "total_demand": 218,
+      "ads": [
+        "2024-08-22"
+      ]
+    },
+    "Guide Tracks": {
+      "total_demand": 218,
+      "ads": [
+        "2024-08-22"
+      ]
+    },
+    "Fasteners": {
+      "total_demand": 218,
+      "ads": [
+        "2024-08-22"
+      ]
+    }
+  }
+}

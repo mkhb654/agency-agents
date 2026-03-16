@@ -1,0 +1,163 @@
+{
+  "hs_codes": {
+    "8803": "Parts of goods of heading 88.01 or 88.02 (aircraft parts)",
+    "8803.10": "Propellers, rotors, and parts thereof",
+    "8803.20": "Under-carriages and parts thereof (landing gear)",
+    "8803.30": "Other parts of airplanes or helicopters",
+    "8411.91": "Parts of turbojets or turboprops"
+  },
+  "us_trade_summary": {
+    "total_imports_2024": 18500000000,
+    "total_exports_2024": 22000000000,
+    "trade_balance": "NET EXPORTER (+$3.5B)",
+    "note": "US is world's largest aviation parts exporter"
+  },
+  "top_import_sources": [
+    {
+      "country": "France",
+      "value": 3200000000,
+      "note": "Airbus supply chain, Safran engine parts"
+    },
+    {
+      "country": "United Kingdom",
+      "value": 2800000000,
+      "note": "Rolls-Royce engines, BAE Systems"
+    },
+    {
+      "country": "Canada",
+      "value": 2100000000,
+      "note": "Bombardier, Pratt & Whitney Canada"
+    },
+    {
+      "country": "Germany",
+      "value": 1500000000,
+      "note": "MTU Aero Engines, Airbus Hamburg"
+    },
+    {
+      "country": "Japan",
+      "value": 1200000000,
+      "note": "Mitsubishi Heavy, IHI, Kawasaki"
+    },
+    {
+      "country": "Singapore",
+      "value": 900000000,
+      "note": "ST Engineering MRO hub"
+    },
+    {
+      "country": "Mexico",
+      "value": 800000000,
+      "note": "Aerospace manufacturing corridor"
+    },
+    {
+      "country": "Israel",
+      "value": 700000000,
+      "note": "IAI (Bedek), Elbit Systems"
+    },
+    {
+      "country": "China",
+      "value": 600000000,
+      "note": "Growing, mostly components/structures"
+    },
+    {
+      "country": "Ireland",
+      "value": 500000000,
+      "note": "Aircraft leasing hub, Shannon MRO"
+    }
+  ],
+  "top_export_destinations": [
+    {
+      "country": "France",
+      "value": 3500000000,
+      "note": "Airbus final assembly supply"
+    },
+    {
+      "country": "United Kingdom",
+      "value": 2500000000,
+      "note": "RR engine programs"
+    },
+    {
+      "country": "Japan",
+      "value": 2000000000,
+      "note": "Co-production programs"
+    },
+    {
+      "country": "Canada",
+      "value": 1800000000,
+      "note": "Bilateral aerospace trade"
+    },
+    {
+      "country": "Germany",
+      "value": 1400000000,
+      "note": "Airbus supply chain"
+    },
+    {
+      "country": "Singapore",
+      "value": 1100000000,
+      "note": "MRO/distribution hub for Asia"
+    },
+    {
+      "country": "South Korea",
+      "value": 900000000,
+      "note": "KAI programs, airline MRO"
+    },
+    {
+      "country": "China",
+      "value": 800000000,
+      "note": "Growing market, Boeing/COMAC"
+    },
+    {
+      "country": "UAE",
+      "value": 700000000,
+      "note": "Emirates/Etihad MRO operations"
+    },
+    {
+      "country": "Australia",
+      "value": 600000000,
+      "note": "RAAF, Qantas MRO"
+    }
+  ],
+  "arbitrage_corridors": [
+    {
+      "corridor": "US \u2192 Singapore \u2192 Southeast Asia",
+      "opportunity": "Parts prices in SE Asia are 15-25% higher due to limited local supply. US has surplus. EasyFlyers has logistics network.",
+      "margin": "15-25%",
+      "volume": "HIGH \u2014 Singapore is Asia's MRO hub",
+      "parts": "Engine modules, landing gear, avionics"
+    },
+    {
+      "corridor": "Israel \u2192 US MRO market",
+      "opportunity": "IAI/Bedek produces turbine nozzle segments at lower cost. Already in USAspending data (Bedek: $995K for F100 nozzles).",
+      "margin": "10-20%",
+      "volume": "MEDIUM",
+      "parts": "Engine hot-section components, structural parts"
+    },
+    {
+      "corridor": "US teardowns \u2192 China/India airlines",
+      "opportunity": "Chinese and Indian airlines are massive USM buyers. Growing fleets but limited domestic MRO. Parts flow US\u2192Asia at premium.",
+      "margin": "20-35%",
+      "volume": "VERY HIGH \u2014 fastest growing markets",
+      "parts": "CFM56 USM, landing gear, avionics"
+    },
+    {
+      "corridor": "Ireland (lessor base) \u2192 global",
+      "opportunity": "Ireland is home to 60% of world's aircraft lessors. Lease-end aircraft often available at discount. Parts from Irish teardowns flow globally.",
+      "margin": "15-25%",
+      "volume": "HIGH \u2014 steady flow from lease returns",
+      "parts": "Complete aircraft, engines, all USM categories"
+    },
+    {
+      "corridor": "Mexico manufacturing \u2192 US MRO",
+      "opportunity": "Mexico's aerospace corridor produces parts at 30-40% labor cost savings. Rising quality. ITAR-compliant facilities exist.",
+      "margin": "10-15% (labor arbitrage)",
+      "volume": "GROWING",
+      "parts": "Structural components, harnesses, interiors"
+    },
+    {
+      "corridor": "UAE MRO hub \u2192 Africa/South Asia",
+      "opportunity": "Dubai/Abu Dhabi MROs service African and South Asian airlines. Parts flow through UAE hub. Premium pricing due to certification trust.",
+      "margin": "20-30%",
+      "volume": "MEDIUM \u2014 growing rapidly",
+      "parts": "All categories, especially engines"
+    }
+  ]
+}

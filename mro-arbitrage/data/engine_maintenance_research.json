@@ -1,0 +1,417 @@
+{
+  "research_date": "2026-03-14",
+  "meta": {
+    "description": "Comprehensive research on aircraft engine maintenance, overhaul, shop visit patterns, and aftermarket economics. Engine parts represent the highest-value arbitrage opportunity in aviation MRO.",
+    "sources_count": 50,
+    "data_quality": "Aggregated from public sources including IBA, Oliver Wyman, Aviation Week, ISTAT, OEM press releases, SEC filings, and industry publications"
+  },
+
+  "mro_market_overview": {
+    "total_mro_market_2025": "$119 billion",
+    "total_mro_market_2026": "$139 billion",
+    "engine_mro_share_2024": "46%",
+    "engine_mro_share_2025": "49%",
+    "engine_mro_share_2026": "53%",
+    "engine_mro_value_2026": "$73.7 billion",
+    "engine_mro_growth_rate": "7.5% annually",
+    "narrowbody_fleet_share": "76%",
+    "widebody_fleet_share": "17%",
+    "narrowbody_engine_shop_visits_peak_2026": 4200,
+    "shop_visit_capacity_deficit_2026": "15% shortfall",
+    "cfm56_v2500_combined_shop_visits_2025": 4000,
+    "cfm56_v2500_combined_mro_demand_2025": "$18.5 billion",
+    "cfm56_v2500_total_addressable_market_through_2030": "$22 billion annually",
+    "usm_market_size_2025": "$7.64 billion",
+    "usm_market_size_2033": "$10.86 billion",
+    "usm_market_cagr": "4.51%",
+    "engine_share_of_usm_market": "40.2%"
+  },
+
+  "cost_breakdown": {
+    "parts_percentage_of_shop_visit": "70-80%",
+    "labor_percentage_of_shop_visit": "20-30%",
+    "airfoil_percentage_of_replaceable_parts": "60-80%",
+    "most_expensive_component_categories": [
+      "High Pressure Turbine (HPT) blades and disks",
+      "High Pressure Compressor (HPC) blades",
+      "Low Pressure Turbine (LPT) blades",
+      "Life Limited Parts (LLPs) - disks, seals, spools, shafts",
+      "Combustor components"
+    ],
+    "llp_percentage_of_engine_value": ">20%",
+    "key_insight": "Parts dominate engine shop visit costs at 70-80%. Airfoils (blades and vanes) are 60-80% of replaceable parts. This is why USM and PMA parts create massive arbitrage opportunities."
+  },
+
+  "most_expensive_engine_parts": {
+    "hpt_disk_narrowbody": "$300,000 each",
+    "hpt_disk_widebody_ge90": "$1,000,000+",
+    "hpt_blade_shipset": "$400,000-$700,000 (60-80 blades per set)",
+    "hpt_blade_individual": "$5,000-$15,000 each",
+    "hpc_blade_shipset": "$150,000-$300,000",
+    "individual_vane_segment": "up to $10,000",
+    "individual_turbine_blade": "up to $8,000",
+    "cfm56_hot_section_llp_exchange": "$500,000",
+    "cfm56_fan_booster_llp": "$500,000-$700,000",
+    "cfm56_full_llp_stack": "$3,000,000+",
+    "cf34_llp_replacement": "$500,000-$1,000,000",
+    "usm_hpt_price_growth_2022": "48.64% average increase"
+  },
+
+  "engines": {
+    "cfm56": {
+      "variants": {
+        "cfm56_5b": {
+          "application": "Airbus A320 family (ceo)",
+          "status": "In service, mature platform",
+          "lease_rate_monthly": "$60,000-$70,000",
+          "lease_rate_trend": "Rising due to USM scarcity",
+          "green_time_engine_scarcity": "High - lack of useful green time engines",
+          "value_change_2023_2024": "+20%"
+        },
+        "cfm56_7b": {
+          "application": "Boeing 737NG (737-600/700/800/900)",
+          "status": "In service, most popular variant",
+          "lease_rate_monthly_longterm": "$80,000-$95,000",
+          "lease_rate_monthly_shortterm": "$100,000+",
+          "lease_rate_growth": "$75,000 (2019) to $100,000 (2024)",
+          "value_change_2023_2024": "+20%",
+          "market_condition": "Distinct lack of availability"
+        }
+      },
+      "fleet_data": {
+        "total_engines_delivered": "33,000+",
+        "engines_currently_in_service": "28,000+",
+        "aircraft_powered": "14,650+",
+        "operators": "650+",
+        "aircraft_in_air_at_any_moment": "2,400+",
+        "fleet_flight_hours": "800+ million"
+      },
+      "maintenance_intervals": {
+        "average_time_on_wing_first_visit": "30,000 hours",
+        "fleet_record_time_on_wing": "50,000 hours",
+        "average_cycles_to_first_overhaul": "18,000-20,000 cycles",
+        "llp_replacement_hot_section": "20,000 cycles",
+        "llp_replacement_axial_compressor": "25,000 cycles",
+        "llp_replacement_fan_booster": "30,000 cycles",
+        "traditional_removal_threshold": "8,000-10,000 cycles remaining on LLPs",
+        "current_removal_trend": "5,000 cycles remaining on LLPs"
+      },
+      "shop_visit_costs": {
+        "performance_restoration_labor_hours": "2,500-3,000 man-hours",
+        "performance_restoration_materials": "$400,000-$500,000",
+        "simple_performance_restoration": "$300,000-$600,000",
+        "full_shop_visit_without_llps": "$3,000,000",
+        "full_llp_complement": "$3,500,000",
+        "complete_overhaul_with_llps": "$6,500,000",
+        "module_change_vs_overhaul": "5-10% of overhaul cost",
+        "module_change_turnaround": "~1 week",
+        "full_overhaul_turnaround": "3-6 months"
+      },
+      "aftermarket": {
+        "oem_material_price_increase_2yr": "~30%",
+        "value_increase_some_variants_2yr": "up to 50%",
+        "market_driver": "Extended 737NG/A320ceo operations due to LEAP/GTF delivery delays and GTF crisis"
+      }
+    },
+
+    "leap": {
+      "variants": {
+        "leap_1a": {
+          "application": "Airbus A320neo family",
+          "lease_rate_monthly": "$125,000-$155,000",
+          "lease_rate_trend": "Climbing from $110,000 (2023) to $125,000+ (2024)",
+          "power_by_hour_rate": "$3,039/engine/day"
+        },
+        "leap_1b": {
+          "application": "Boeing 737 MAX family",
+          "status": "Production ramp challenges",
+          "production_delays": "Contributing to extended CFM56 fleet operations"
+        }
+      },
+      "maintenance_intervals": {
+        "current_shop_visit_interval": "2,000-6,000 cycles",
+        "operator_planning_base": "4,000 cycles",
+        "target_first_overhaul_interval": "30,000 cycles (design goal)",
+        "target_second_overhaul": "15,000 cycles after first",
+        "design_life": "60,000 cycles (scrapped with aircraft)",
+        "note": "Early shop visits frustrating operators - intervals shorter than expected during maturation"
+      },
+      "cost_comparison_to_cfm56": {
+        "power_by_hour_leap_1a": "$3,039/engine/day",
+        "power_by_hour_cfm56": "$1,852/engine/day",
+        "premium_vs_cfm56": "64% higher maintenance cost per day"
+      }
+    },
+
+    "v2500": {
+      "application": "Airbus A320 family (ceo)",
+      "manufacturer": "International Aero Engines (Pratt & Whitney, JAEC, MTU, Fiat Avio)",
+      "lease_rate_monthly": "$70,000-$80,000",
+      "lease_rate_peak": "$80,000+",
+      "spare_availability": "Fewer spares available than CFM56",
+      "maintenance_intervals": {
+        "llp_replacement_interval": "20,000 cycles",
+        "shop_visits_over_lifecycle": "Up to 5",
+        "overhaul_cost_range_performance_restoration": "$10,500,000-$14,000,000 (fleet lifecycle)",
+        "overhaul_cost_range_llp_replacement": "$17,000,000-$21,000,000 (fleet lifecycle)"
+      },
+      "mro_activity": {
+        "mtu_maintenance_shop_visits_2017": "300+ per year",
+        "mtu_fleet_coverage": "34% of world V2500 fleet"
+      }
+    },
+
+    "ge90": {
+      "application": "Boeing 777 family",
+      "variants": ["GE90-94B", "GE90-110B", "GE90-115B"],
+      "shop_visit_cost": "$10,000,000+",
+      "full_life_value_ge90_115bl": "$32,000,000+",
+      "serviceable_engine_value": "$20,000,000+",
+      "lease_rate_monthly_longterm": "$120,000",
+      "lease_rate_monthly_spot": "$170,000-$185,000",
+      "maintenance_intervals": {
+        "typical_cycle_range": "1,500-2,500 cycles per visit",
+        "design_life_cycles": "20,000 cycles before major shop visit",
+        "maturation_test_program": "40,000 cycles, 5 shop visits simulating 30 years"
+      },
+      "hpt_disk_cost": "$1,000,000+"
+    },
+
+    "pw1100g_gtf": {
+      "application": "Airbus A320neo family",
+      "manufacturer": "Pratt & Whitney (RTX)",
+      "lease_rate_monthly": "$145,000-$155,000+",
+      "lease_rate_vs_leap": "~5% higher than LEAP-1A",
+      "crisis": {
+        "root_cause": "Contaminated powdered metal in manufacturing Q4 2015 - Q3 2021",
+        "affected_component": "Stage 1 and Stage 2 disks in high-pressure turbine",
+        "failure_mode": "Cracking in HPT disks",
+        "initial_recall_july_2023": "1,200 engines",
+        "expanded_recall_sept_2023": "3,000 engines (all PW1100G in service)",
+        "engines_requiring_removal_through_2026": "600-700",
+        "inspection_duration": "250-300 days per engine",
+        "average_aircraft_grounded": "350 at any given time through 2026",
+        "percentage_fleet_stored_or_in_maintenance": "37.5%",
+        "total_cost_estimate": "$6-7 billion",
+        "cost_breakdown": "80% customer compensation, 20% repair costs",
+        "airlines_heavily_affected": {
+          "indigo": "70+ aircraft grounded",
+          "turkish_airlines": "40-45 A321neos grounded",
+          "jetblue": "20 aircraft grounded",
+          "spirit_airlines": "Significant fleet impact"
+        },
+        "mro_capacity_expansion": {
+          "shops_2023": 12,
+          "additional_shops_planned_by_2026": 7,
+          "engines_delivered_2024": 996,
+          "engines_delivered_2023": 875
+        },
+        "upgrade_initiative_2026": "Retrofit package with GTF Advantage durability features",
+        "resolution_timeline": "Recovery expected through end of decade"
+      },
+      "arbitrage_implications": [
+        "Massive demand for spare A320neo engines during crisis",
+        "Airlines with CFM56/V2500 A320ceos extending operations due to neo unavailability",
+        "Lease rates for all A320-family engines elevated",
+        "Parts for PW1100G HPT (disks especially) in extreme shortage",
+        "Compensation payments from P&W may exceed some airlines' operating margins",
+        "Creates cascading demand for CFM56 USM as A320ceos fly longer"
+      ]
+    },
+
+    "cf6_80": {
+      "application": "Boeing 767, 747-400, Airbus A330 (CF6-80E1)",
+      "variants": {
+        "cf6_80c2": {
+          "fan_diameter": "236 cm (92.9 in)",
+          "fan_blades": 38,
+          "applications": ["767-200/300", "747-400", "MD-11", "A300/A310"]
+        },
+        "cf6_80e1": {
+          "fan_diameter": "244 cm (96.1 in)",
+          "fan_blades": 34,
+          "thrust": "300-320 kN (67,000-72,000 lbf)",
+          "application": "Airbus A330"
+        }
+      },
+      "maintenance_demand": {
+        "annual_shop_visits": "220-260",
+        "demand_trend": "Rising - expected to peak in 3-4 years",
+        "primary_driver": "767 freighter conversions and cargo demand",
+        "fleet_outlook": "767 CF6-80C2 fleet will be BIGGER in next decade than today"
+      },
+      "parts_supply": {
+        "usm_availability": "Limited - significant demand where no USM available",
+        "new_parts_availability": "Also limited - factory new parts not available",
+        "pricing_impact": "Surge pricing for USM parts",
+        "key_insight": "Aging fleet + cargo conversions = growing parts demand with shrinking supply. Prime arbitrage territory."
+      }
+    }
+  },
+
+  "cfm56_teardown_market": {
+    "major_players": {
+      "ftai_aviation": {
+        "role": "Dominant aftermarket player",
+        "engine_pool": "450+ CFM56 engines (and growing)",
+        "total_fleet": "1,000+ engines",
+        "partner": "AAR (exclusive Serviceable Engine Products agreement through 2030)",
+        "module_factory_target_2026": "1,000 CFM56 modules",
+        "pma_strategy": "Joint venture with Chromalloy for PMA parts",
+        "typical_mro_margin": "35% (vs industry 15%)",
+        "projected_margin_with_pma": "50%+",
+        "q3_2025_ebitda_growth": "77% YoY",
+        "business_model": "Vertical integration: acquire engines -> teardown -> module factory -> PMA parts -> sell/exchange",
+        "new_venture": "FTAI Power - converting CFM56 engines to power turbines for AI data center demand"
+      },
+      "ga_telesis": {
+        "role": "Major USM provider and teardown operator",
+        "capabilities": "CFM56-5B, CFM56-7B, CF6-80C2 disassembly",
+        "facilities": "Helsinki (Finland), Wilmington OH (US)",
+        "certifications": "FAA, EASA, CAAC, TCCA, DGCA, GACA, ANAC, ECAA",
+        "recent_activity": "Record number of CFM56-7B disassemblies in 2024"
+      },
+      "aerfin": {
+        "role": "Growing teardown operator",
+        "focus": "CFM56-5B PIP engines",
+        "facility": "Expanded engine facility in South Wales, UK",
+        "customers": "Operators, lessors, MRO providers worldwide"
+      },
+      "kellstrom_aerospace": {
+        "role": "Engine disassembly and USM provider",
+        "recent_activity": "Disassembling CF6-80C2B1F and CFM56-5B engines simultaneously"
+      },
+      "willis_lease": {
+        "role": "Engine lessor and trader",
+        "leap_order": "Up to 60 LEAP engines (~$900 million list price)",
+        "services": "Leasing, trading, asset management"
+      },
+      "standardaero": {
+        "role": "Major MRO provider",
+        "cfm56_capability": "CFM56-7B MRO at DFW facility",
+        "leap_capability": "LEAP-1A and LEAP-1B service including lease engines"
+      }
+    },
+    "teardown_economics": {
+      "acquisition_cost_run_out_engine": "Varies by remaining life",
+      "most_valuable_teardown_parts": [
+        "HPT blades ($5,000-$15,000 each, 60-80 per engine = $300K-$1.2M per set)",
+        "HPT disks ($300,000 each for narrowbody)",
+        "HPC blades ($150,000-$300,000 per shipset)",
+        "LPT blades and vanes",
+        "Fan blades",
+        "Combustor liners",
+        "Life Limited Parts with remaining cycles"
+      ],
+      "value_vs_overhaul_insight": "A teardown can yield $2-5M in USM from a CFM56, depending on part condition and remaining life on LLPs"
+    }
+  },
+
+  "engine_lease_rates_summary": {
+    "as_of": "2024-2025",
+    "rates": {
+      "cfm56_5b": {"monthly": "$60,000-$70,000", "trend": "Rising"},
+      "cfm56_7b": {"monthly_longterm": "$80,000-$95,000", "monthly_shortterm": "$100,000+", "trend": "Strong growth"},
+      "v2500_a5": {"monthly": "$70,000-$80,000", "trend": "Stable to rising"},
+      "leap_1a": {"monthly": "$125,000-$155,000", "trend": "Climbing"},
+      "pw1100g": {"monthly": "$145,000-$155,000+", "trend": "Elevated due to crisis"},
+      "ge90_110_115": {"monthly_longterm": "$120,000", "monthly_spot": "$170,000-$185,000", "trend": "Very strong"},
+      "market_condition": "Lessors' market - demand far exceeds supply across all types"
+    }
+  },
+
+  "arbitrage_opportunities": {
+    "tier_1_highest_value": [
+      {
+        "opportunity": "CFM56-7B HPT blades and disks",
+        "rationale": "28,000 engines in service, 4,000 shop visits/year, HPT parts are 48%+ price increases, USM scarcity driving surge pricing",
+        "entry_strategy": "Acquire run-out or time-expired CFM56-7B engines for teardown, harvest HPT section",
+        "estimated_margin": "35-50% on USM parts (FTAI demonstrates this)"
+      },
+      {
+        "opportunity": "PW1100G HPT disks and turbine components",
+        "rationale": "600-700 engines need removal, 250-300 day inspection times, extreme parts shortage for contaminated powder metal components",
+        "entry_strategy": "Source any available PW1100G serviceable HPT components",
+        "risk": "Limited supply, OEM controls most parts"
+      },
+      {
+        "opportunity": "CF6-80C2 USM parts",
+        "rationale": "Growing fleet (767 cargo conversions), 220-260 annual shop visits trending up, no USM available, no new parts available = surge pricing",
+        "entry_strategy": "Acquire retiring passenger 767/747 CF6-80C2 engines, teardown for cargo fleet demand"
+      }
+    ],
+    "tier_2_strong_value": [
+      {
+        "opportunity": "CFM56-5B modules and USM",
+        "rationale": "V2500 scarcity pushes demand to CFM56-5B, A320ceo operations extending",
+        "entry_strategy": "Module exchange business model (FTAI approach)"
+      },
+      {
+        "opportunity": "V2500-A5 components",
+        "rationale": "Fewer spares than CFM56, strong lease rates $70-80K/month",
+        "entry_strategy": "Acquire V2500s from retiring A320ceos"
+      },
+      {
+        "opportunity": "GE90 serviceable material",
+        "rationale": "$20M+ per serviceable engine, $170-185K/month spot lease rates, limited MRO capacity",
+        "entry_strategy": "Niche market - very high capital requirements but enormous per-unit value"
+      }
+    ],
+    "tier_3_emerging": [
+      {
+        "opportunity": "LEAP-1A/1B early-life parts",
+        "rationale": "Frustrating early shop visits at 2,000-6,000 cycles creating unexpected parts demand",
+        "entry_strategy": "Position for growing aftermarket as LEAP fleet matures"
+      },
+      {
+        "opportunity": "PMA parts for CFM56",
+        "rationale": "FTAI/Chromalloy JV targeting 50%+ margins, PMA parts approved as alternatives to OEM parts",
+        "entry_strategy": "Invest in PMA development or partner with PMA manufacturers"
+      }
+    ]
+  },
+
+  "key_data_sources_for_ongoing_monitoring": {
+    "faa_sdr_database": "Service Difficulty Reports - tracks engine failures and parts issues",
+    "faa_registry": "Aircraft and engine registration - tracks fleet composition",
+    "sec_filings": "FTAI, StandardAero (SARO), RTX quarterly reports reveal market data",
+    "iba_group": "Engine values and lease rates (semi-annual updates)",
+    "oliver_wyman": "Annual Global Fleet & MRO Market Forecast",
+    "aviation_week": "MRO market intelligence and shop visit data",
+    "aircraft_commerce": "Detailed maintenance cost analysis by engine type",
+    "avitrader": "Real-time engine and parts trading activity",
+    "ishka": "Engine pricing and lease rate intelligence"
+  },
+
+  "sources": [
+    "https://www.oliverwyman.com/our-expertise/insights/2025/feb/global-fleet-and-mro-market-forecast-2025-2035.html",
+    "https://aviationweek.com/mro/aircraft-propulsion/will-popularity-engine-module-changes-continue",
+    "https://aviationweek.com/mro/aircraft-propulsion/mro-memo-bow-wave-cfm56-visits-may-arrive-later",
+    "https://www.ajw-group.com/storage/downloads/1571903938_aircraft_commerce_1.pdf",
+    "https://visualapproach.io/wave-of-early-leap-1a-1b-shop-visits-frustrating-operators/",
+    "https://simpleflying.com/airbus-a320neo-pw1100g-groundings-update/",
+    "https://www.flightglobal.com/engines/pandw-geared-turbofan-issue-will-ground-hundreds-of-a320neos-through-2026/154885.article",
+    "https://www.aerotime.aero/articles/pw1100g-update-fleet",
+    "https://www.iba.aero/resources/articles/engine-values-lease-rates-september-2024/",
+    "https://www.iba.aero/resources/articles/aircraft-engine-values-lease-rates-april-2024/",
+    "https://simpleflying.com/cost-lease-aircraft-engines/",
+    "https://finance.yahoo.com/news/used-serviceable-material-usm-market-130000781.html",
+    "https://www.magneticgroup.co/the-current-state-and-future-of-cfm56-usm-engine-pricing/",
+    "https://www.aarcorp.com/en/newsroom/press-releases/2025/aar-and-ftai-aviation-extend-their-exclusive-serviceable-engine-products-agreement-providing-cfm56-engine-material-to-the-global-aviation-aftermarket-through-2030/",
+    "https://ir.ftaiaviation.com/",
+    "https://aviationweek.com/mro/supply-chain/ftai-targets-pma-turbocharge-margins",
+    "https://gatelesis.com/ga-telesis-continues-its-leadership-position-in-the-usm-market-with-a-record-number-of-cfm56-7b-engine-disassemblies/",
+    "https://avitrader.com/2025/12/11/aerfin-acquires-cfm56-5b-pip-engines-for-teardown/",
+    "https://simpleflying.com/major-engine-parts-cost-guide/",
+    "https://www.aircraftmonitor.com/uploads/1/5/9/9/15993320/engine_mx_concepts_for_financiers___v2.pdf",
+    "https://www.cfmaeroengines.com/press-articles/cfm56-fleet-surpasses-800-million-flight-hours",
+    "https://leehamnews.com/2017/03/31/bjorns-corner-aircraft-engine-maintenance-part-5/",
+    "https://aviationweek.com/mro/aircraft-propulsion/surging-demand-puts-mature-engine-materials-watchlist",
+    "https://en.wikipedia.org/wiki/CFM_International_CFM56",
+    "https://en.wikipedia.org/wiki/General_Electric_GE90",
+    "https://airinsight.com/powder-metal-issue-gtf-extends-to-more-parts-leap-1b-checks-covered-by-final-ad/",
+    "https://aviationweek.com/mro/supply-chain/early-2026-outlook-shows-mro-market-momentum-increasing",
+    "https://www.istat.org/Portals/0/ISTAT%20Learning%20Lab%20-%20Deep%20Dive%20into%20Engine%20Values%20-%20George%20Dimitroff.pdf",
+    "https://www.eplaneai.com/news/cfm56-engine-values-highlight-investor-opportunities-and-risks"
+  ]
+}

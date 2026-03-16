@@ -1,0 +1,503 @@
+{
+  "research_date": "2026-03-14",
+  "purpose": "Identify publicly available data on stored/parked/grounded aircraft as teardown candidates for MRO parts arbitrage",
+
+  "storage_facilities": {
+    "united_states": [
+      {
+        "name": "Pinal Airpark (Pinal County Airpark)",
+        "location": "Marana, AZ (ICAO: KMZJ)",
+        "operator": "Ascent Aviation Services + Pinal County",
+        "capacity": "400+ aircraft on 500 acres (200 acres for storage)",
+        "teardown_rate": "70-100 aircraft/year (Ascent Aviation)",
+        "aircraft_types": "Boeing 747, 777, A320, EMB-145, wide-body and narrow-body mix",
+        "known_customers": ["Cathay Pacific", "Cathay Dragon", "Delta", "Northwest Airlines", "American Eagle"],
+        "data_availability": "No public tail-number list. Must contact directly or use satellite/spotter databases.",
+        "urls": [
+          "https://www.pinalcountyairpark.com/",
+          "https://ascentmro.com/",
+          "https://www.airplaneboneyards.com/pinal-airpark-airliner-storage-boneyard.htm"
+        ],
+        "contact": "PinalAirPark@pinalcountyaz.gov | (520) 866-6448",
+        "arbitrage_relevance": "HIGH - Ascent tears down 70-100 aircraft/year, parts flow into USM market. Watching new arrivals = early signal of parts supply."
+      },
+      {
+        "name": "Southern California Logistics Airport (SCLA)",
+        "location": "Victorville, CA (ICAO: KVCV)",
+        "operator": "ComAv Technical Services + various MROs",
+        "capacity": "500+ aircraft on 240-acre open storage + hangars",
+        "aircraft_types": "Boeing 737, 747, A380, wide variety. Southwest stored 50x 737-700s here (2020). Qantas stored A380 fleet here.",
+        "data_availability": "No public inventory. Spotter community active. Planespotters.net and FlightRadar24 show aircraft at KVCV.",
+        "urls": [
+          "https://www.victorvilleca.gov/government/city-departments/airport",
+          "https://www.airplaneboneyards.com/southern-california-logistics-airport-victorville-boneyard.htm",
+          "https://www.flightradar24.com/data/airports/VCV"
+        ],
+        "arbitrage_relevance": "HIGH - Second largest commercial boneyard worldwide. Major teardown and MRO activity."
+      },
+      {
+        "name": "Mojave Air & Space Port",
+        "location": "Mojave, CA (ICAO: KMHV)",
+        "capacity": "250-1000 aircraft",
+        "aircraft_types": "Boeing 747, 737, A320, MD-80, L-1011",
+        "data_availability": "Very restricted. No photography allowed on flightline. Email approval required from Business Class Aviation.",
+        "urls": [
+          "https://tour.mojaveairport.com/",
+          "https://www.airplaneboneyards.com/mojave-desert-california-airplane-boneyard.htm"
+        ],
+        "arbitrage_relevance": "MEDIUM - Many secretive aerospace R&D operations. Less transparency on teardown activity."
+      },
+      {
+        "name": "Roswell International Air Center (RIAC)",
+        "location": "Roswell, NM (ICAO: KROW)",
+        "capacity": "Up to 300 jetliners",
+        "aircraft_types": "MD-80, Boeing 737, 747, 767, A330, various",
+        "known_customers": ["American Airlines", "United", "UPS", "Air Canada", "Scoot", "Polar Air Cargo", "Hawaiian Airlines", "Copa Airlines", "Kenya Airways"],
+        "data_availability": "No public tail-number list. Spotter community reports available.",
+        "urls": [
+          "https://www.airplaneboneyards.com/roswell-international-air-center-boneyard.htm",
+          "https://www.chavescounty.net/business-environment/roswell-air-center"
+        ],
+        "arbitrage_relevance": "HIGH - Active teardown facility. Dry climate (4-8% humidity) ideal for long-term storage. COVID surge brought large volumes."
+      },
+      {
+        "name": "Phoenix Goodyear Airport",
+        "location": "Goodyear, AZ (ICAO: KGYR)",
+        "capacity": "Moderate",
+        "data_availability": "Limited public data. Covered by airplaneboneyards.com.",
+        "urls": ["https://www.airplaneboneyards.com/arizona-airplane-boneyards-storage.htm"],
+        "arbitrage_relevance": "MEDIUM"
+      },
+      {
+        "name": "Kingman Airport",
+        "location": "Kingman, AZ",
+        "data_availability": "Limited. Historic boneyard.",
+        "urls": ["https://www.airplaneboneyards.com/arizona-airplane-boneyards-storage.htm"],
+        "arbitrage_relevance": "LOW-MEDIUM"
+      },
+      {
+        "name": "Davis-Monthan AFB / AMARG",
+        "location": "Tucson, AZ",
+        "operator": "309th Aerospace Maintenance and Regeneration Group (AMARG)",
+        "capacity": "4,400+ aircraft (military)",
+        "data_availability": "PUBLIC - FOIA inventory released monthly. Searchable at amarcexperience.com",
+        "urls": [
+          "https://www.amarcexperience.com/ui/index.php?option=com_content&view=article&id=30&Itemid=220",
+          "https://www.dm.af.mil/About-DM/Units/Mission-Partners/309-AMARG/",
+          "https://www.airplaneboneyards.com/davis-monthan-afb-amarg-airplane-boneyard.htm"
+        ],
+        "notes": "Military aircraft only. Parts reclamation serves DoD. Not directly relevant to commercial MRO arbitrage, but military surplus parts sometimes cross over.",
+        "arbitrage_relevance": "LOW for commercial, but military surplus parts can overlap (engines, avionics, fasteners)."
+      }
+    ],
+    "international": [
+      {
+        "name": "Asia Pacific Aircraft Storage (APAS)",
+        "location": "Alice Springs, NT, Australia",
+        "operator": "APAS Pty Ltd",
+        "capacity": "Up to 200 aircraft (100 hectare site), handles all types including A380",
+        "known_customers": ["Qantas", "Virgin Australia", "Air New Zealand", "Singapore Airlines", "Cebu Pacific", "Garuda Indonesia", "Cathay Pacific", "Fiji Airways", "Scoot", "Icelandair"],
+        "data_availability": "No public inventory list. Limited to spotter reports and press releases.",
+        "urls": [
+          "https://www.apas.com.au/",
+          "https://www.airplaneboneyards.com/alice-springs-australia-airplane-boneyard.htm"
+        ],
+        "contact": "+61 7 3171 4570",
+        "arbitrage_relevance": "HIGH for Asia-Pacific market. Aircraft leaving here often go to teardown elsewhere."
+      },
+      {
+        "name": "TARMAC Aerosave - Teruel",
+        "location": "Teruel Airport, Spain",
+        "operator": "TARMAC Aerosave (Airbus/Safran/Suez JV)",
+        "capacity": "140 aircraft + 20 engines at Teruel. 270 total across 3 sites (incl. Tarbes and Toulouse, France).",
+        "aircraft_types": "A380, A340, 747-400, various. As of Oct 2024: 63 aircraft including 8 A380, 16 A340, 5 747-400.",
+        "services": ["Storage", "Maintenance", "Recycling/Teardown"],
+        "data_availability": "Occasional press releases with aircraft counts by type. No public tail-number list.",
+        "urls": [
+          "https://www.tarmacaerosave.aero/",
+          "https://www.airplaneboneyards.com/teruel-airport-spain-airplane-boneyard.htm"
+        ],
+        "arbitrage_relevance": "HIGH - Europe's largest storage/recycling facility. A380/A340 teardowns generate large component supply."
+      },
+      {
+        "name": "TARMAC Aerosave - Tarbes",
+        "location": "Tarbes-Lourdes-Pyrenees Airport, France",
+        "operator": "TARMAC Aerosave",
+        "capacity": "100+ aircraft",
+        "urls": ["https://www.tarmacaerosave.aero/"],
+        "arbitrage_relevance": "HIGH"
+      },
+      {
+        "name": "Cotswold Airport / Air Salvage International",
+        "location": "Kemble, Gloucestershire, UK",
+        "operator": "Air Salvage International (ASI)",
+        "urls": ["https://www.airplaneboneyards.com/airplane-boneyards-outside-usa.htm"],
+        "arbitrage_relevance": "MEDIUM - UK teardown facility"
+      }
+    ]
+  },
+
+  "tracking_databases": {
+    "free_or_freemium": [
+      {
+        "name": "Planespotters.net",
+        "url": "https://www.planespotters.net/",
+        "type": "Free (community-maintained)",
+        "coverage": "50,000+ aircraft, 1M+ photos",
+        "stored_aircraft_tracking": true,
+        "status_categories": ["Active", "Stored", "Scrapped/Broken Up"],
+        "key_features": [
+          "Production list search with URL filters (manufacturer, type, fleet, status)",
+          "Complete aircraft history from production to scrap",
+          "Delivery and scrap events tracked within days",
+          "MSN-to-registration linking across operators"
+        ],
+        "example_search_url": "https://www.planespotters.net/production-list/search?fleetStatus=stored&manufacturer=Boeing&type=737",
+        "api_available": false,
+        "scraper_available": "https://github.com/ehtisham91/planespotters-scraper",
+        "cost": "Free",
+        "arbitrage_value": "HIGH - Can filter all stored/scrapped aircraft by type. Direct signal for parts supply entering market."
+      },
+      {
+        "name": "Airfleets.net",
+        "url": "https://www.airfleets.net/",
+        "type": "Free",
+        "coverage": "All major commercial aircraft manufacturers (Airbus, Boeing, Embraer, Bombardier, etc.)",
+        "stored_aircraft_tracking": true,
+        "key_features": [
+          "Airline fleet pages with 'Stored/Scrapped' filter",
+          "Production lists by aircraft type",
+          "Aircraft history by serial number (MSN)",
+          "Dedicated stored fleet pages per airline (e.g., /flottecie/KLM-stored-b737.htm)"
+        ],
+        "example_urls": [
+          "https://www.airfleets.net/flottecie/KLM-stored-b737.htm",
+          "https://www.airfleets.net/flottecie/Jet2-stored-b737-0-regasc.htm"
+        ],
+        "scraper_available": "https://github.com/albert-torres/airfleet-scraper",
+        "cost": "Free",
+        "caveats": "Stored status may be stale - aircraft listed as stored may already be scrapped. Small airlines/aircraft not tracked.",
+        "arbitrage_value": "HIGH - Free, structured data on stored fleets by airline and type. Good for monitoring fleet transitions."
+      },
+      {
+        "name": "FAA Releasable Aircraft Database",
+        "url": "https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/releasable_aircraft_download",
+        "type": "Free (US government public data)",
+        "coverage": "All US-registered aircraft (N-numbers)",
+        "key_files": {
+          "MASTER.txt": "All currently registered aircraft with status codes",
+          "DEREG.txt": "All deregistered aircraft (scrapped, exported, destroyed, etc.)",
+          "ACFTREF.txt": "Aircraft type reference data",
+          "ENGINE.txt": "Engine reference data"
+        },
+        "data_format": "CSV (comma-delimited .txt files), ~60MB download",
+        "update_frequency": "Daily at 11:30 PM Central",
+        "fields_in_DEREG": ["N-number", "Serial number", "Model code", "Registrant name/address", "Last action date", "Certificate issue date", "Airworthiness class", "Aircraft type", "Engine type", "Registration status", "Transponder code"],
+        "python_tools": [
+          "https://pypi.org/project/faa-aircraft-registry/",
+          "https://github.com/ClearAerospace/faa-aircraft-registry",
+          "https://github.com/simonw/scrape-faa-releasable-aircraft"
+        ],
+        "cost": "Free",
+        "privacy_warning": "FAA considering restricting some registration data (FAA-2025-0638) per FAA Reauthorization Act of 2024.",
+        "arbitrage_value": "CRITICAL - DEREG.txt is the single best free signal for aircraft being scrapped/parted out. Daily updates. Bulk downloadable. Cross-reference with parts marketplaces to detect new supply entering market."
+      },
+      {
+        "name": "FAA Aircraft Registry Online Lookup",
+        "url": "https://registry.faa.gov/aircraftinquiry/search/nnumberinquiry",
+        "type": "Free",
+        "coverage": "Individual N-number lookup",
+        "cost": "Free",
+        "arbitrage_value": "MEDIUM - Good for individual aircraft verification but not bulk analysis."
+      },
+      {
+        "name": "AMARG/AMARC Experience Database",
+        "url": "https://www.amarcexperience.com/ui/index.php?option=com_content&view=article&id=30&Itemid=220",
+        "type": "Free (based on FOIA releases)",
+        "coverage": "4,400+ military aircraft at Davis-Monthan AFB",
+        "key_features": [
+          "Searchable by serial/BuNo",
+          "Listings by aircraft manufacturer",
+          "Monthly FOIA inventory updates from 309th AMARG"
+        ],
+        "cost": "Free",
+        "arbitrage_value": "LOW for commercial MRO. Military parts have separate certification requirements."
+      },
+      {
+        "name": "OpenSky Network",
+        "url": "https://opensky-network.org/",
+        "type": "Free for non-commercial use",
+        "coverage": "Live ADS-B tracking, aircraft metadata database",
+        "key_features": [
+          "Crowdsourced aircraft metadata",
+          "REST API with OAuth2 authentication",
+          "Historical flight data for academics (free)",
+          "Can detect aircraft that stopped transmitting"
+        ],
+        "cost": "Free (non-commercial), commercial use requires consent",
+        "arbitrage_value": "MEDIUM - Can build 'last seen' detection for aircraft going dark (= entering storage). Academic historical data useful for research."
+      },
+      {
+        "name": "AirplaneBoneyards.com",
+        "url": "https://www.airplaneboneyards.com/",
+        "type": "Free (informational)",
+        "coverage": "Comprehensive directory of all major boneyards worldwide with interactive map",
+        "key_features": [
+          "Interactive map of boneyards worldwide",
+          "Facility profiles with capacity, operators, photos",
+          "COVID-era storage tracking",
+          "European, Australian, and US facility coverage"
+        ],
+        "map_url": "https://www.airplaneboneyards.com/map-of-airplane-boneyards-around-the-world.htm",
+        "cost": "Free",
+        "arbitrage_value": "LOW-MEDIUM - Reference/directory only. No tail numbers or real-time data."
+      },
+      {
+        "name": "AviationDB",
+        "url": "https://www.aviationdb.com/Aviation/AircraftQuery.shtm",
+        "type": "Free",
+        "coverage": "All current, deregistered, and reserved US civil aircraft (FAA data mirror)",
+        "cost": "Free",
+        "arbitrage_value": "MEDIUM - Web interface for FAA data."
+      },
+      {
+        "name": "Aircraft.com",
+        "url": "https://www.aircraft.com/",
+        "type": "Free",
+        "coverage": "270,000+ aircraft, photos and detailed info",
+        "cost": "Free",
+        "arbitrage_value": "LOW-MEDIUM"
+      },
+      {
+        "name": "EUROCONTROL Grounded Aircraft Dashboard",
+        "url": "https://ansperformance.eu/covid/acft_ground/",
+        "type": "Free",
+        "coverage": "Active vs inactive aircraft across EUROCONTROL area (Europe)",
+        "key_features": [
+          "Interactive dashboard of grounded/parked aircraft by state, airport, operator",
+          "Historical data from COVID pandemic onwards"
+        ],
+        "cost": "Free",
+        "arbitrage_value": "MEDIUM - European fleet parking trends. Aggregate data, not tail-number level."
+      }
+    ],
+    "paid_professional": [
+      {
+        "name": "ch-aviation",
+        "url": "https://www.ch-aviation.com/",
+        "type": "Paid (14-day free trial available)",
+        "coverage": "51,000+ operators, 110,000+ aircraft, 14,000+ airports",
+        "stored_aircraft_tracking": true,
+        "key_features": [
+          "Filter by status: Active, Inactive, Scrapped/Written Off",
+          "Sub-status filtering (e.g., 'in storage' specifically)",
+          "Drilldown to all aircraft stored at a specific airport",
+          "Stored-as-of dates",
+          "Weekly database updates",
+          "Aircraft base/location tracking"
+        ],
+        "data_formats": ["Web UI", "Excel", "CSV", "JSON downloads (extra cost)"],
+        "pricing": "Subscription-based. Custom pricing. Contact for quote.",
+        "arbitrage_value": "VERY HIGH - Best structured database for filtering stored/scrapped aircraft globally. Status + location + dates = actionable teardown intelligence."
+      },
+      {
+        "name": "Cirium (Ascend)",
+        "url": "https://www.cirium.com/",
+        "type": "Paid (enterprise)",
+        "coverage": "220,000+ commercial aircraft, 840+ aircraft types, 170+ engine types, 300+ datapoints per aircraft",
+        "key_features": [
+          "Complete aircraft history at serial number level",
+          "Fleet inventories and status tracking",
+          "Aircraft valuations (Ascend)",
+          "API access (Cirium Sky API)",
+          "Predictive analytics"
+        ],
+        "api": "https://developer.cirium.com/apis/overview",
+        "pricing": "Enterprise pricing. Evaluation accounts available. Contact for quote.",
+        "arbitrage_value": "VERY HIGH - Industry gold standard. Valuations + fleet status = can model teardown economics. Expensive but most comprehensive."
+      },
+      {
+        "name": "IBA Group",
+        "url": "https://www.iba.aero/",
+        "type": "Paid (membership)",
+        "coverage": "Real-time fleet data with historic values and transaction history",
+        "key_features": [
+          "Fleet ownership and deployment tracking",
+          "Aircraft utilization over time",
+          "Live fleet data: orders, deliveries, lease ends, ownership events",
+          "Parked/stored as percentage of regional fleet",
+          "Aircraft valuations and lease rates"
+        ],
+        "pricing": "Membership-based. Add-on modules available.",
+        "arbitrage_value": "VERY HIGH - Lease-end data = leading indicator of aircraft entering teardown pipeline. Valuation data critical for parts-out economics."
+      },
+      {
+        "name": "Aviation Week Fleet Discovery",
+        "url": "https://aviationweek.com/products/fleet-discovery-civil",
+        "type": "Paid (subscription)",
+        "coverage": "220,000+ commercial and business aviation aircraft, 840+ types, 170+ engine types",
+        "key_features": [
+          "Complete aircraft history at serial number level",
+          "Seating and utilization histories",
+          "Current technical specifications",
+          "120+ data points available via API"
+        ],
+        "pricing": "Subscription. Contact for quote.",
+        "arbitrage_value": "HIGH - Comprehensive but overlaps with Cirium. Good for cross-referencing."
+      },
+      {
+        "name": "CAPA Fleet Database",
+        "url": "https://centreforaviation.com/data/fleet",
+        "type": "Paid (CAPA membership add-on)",
+        "coverage": "430,000+ records including 77,000+ individual commercial aircraft",
+        "pricing": "CAPA membership required + add-on fee.",
+        "arbitrage_value": "HIGH"
+      },
+      {
+        "name": "FlightRadar24 API",
+        "url": "https://fr24api.flightradar24.com/",
+        "type": "Paid API (free basic web use)",
+        "coverage": "1,200,000+ aircraft in database",
+        "key_features": [
+          "Real-time flight positions",
+          "Historical flight tracks",
+          "Aircraft registration/type/age data",
+          "Can detect 'last flight' by checking flight history gaps"
+        ],
+        "free_tier": "Basic web tracking free. API requires paid subscription.",
+        "arbitrage_value": "HIGH - Build automated 'last flight detection' system. Aircraft that stop flying = entering storage = future teardown candidates."
+      },
+      {
+        "name": "FlightAware AeroAPI / Firehose",
+        "url": "https://www.flightaware.com/commercial/aeroapi",
+        "type": "Paid (usage-based for AeroAPI, enterprise for Firehose)",
+        "key_features": [
+          "Real-time and historical flight data",
+          "Per-aircraft flight history",
+          "Firehose: streaming TCP feed for enterprise",
+          "Historical playback capability"
+        ],
+        "pricing": "AeroAPI: usage-based (per query). Firehose: enterprise pricing (contact for quote).",
+        "arbitrage_value": "HIGH - Same 'last flight detection' capability as FR24. Historical data replay for backtesting storage detection algorithms."
+      }
+    ]
+  },
+
+  "teardown_companies_to_monitor": {
+    "description": "These companies acquire aircraft for teardown/parts-out. Monitoring their acquisitions = advance signal of parts entering USM market.",
+    "companies": [
+      {
+        "name": "GA Telesis",
+        "location": "Fort Lauderdale, FL",
+        "url": "https://www.gatelesis.com/",
+        "stats": "275+ airframe disassemblies, 600+ engine disassemblies, billion-dollar ecosystem",
+        "parts_catalog": "https://www.gatelesis.com/available-commercial-aircraft-parts-sale/",
+        "notes": "Recently announced A321 disassembly from Magnetic Leasing acquisition."
+      },
+      {
+        "name": "AerSale",
+        "location": "Coral Gables, FL",
+        "url": "https://www.aersale.com/",
+        "stats": "Invested $100M in feedstock in 2025. Wins ~1 in 10 deals bid on.",
+        "notes": "Publicly traded (ASLE). Earnings calls reveal feedstock acquisition data. 'Hypercompetitive' feedstock market."
+      },
+      {
+        "name": "Ascent Aviation Services",
+        "location": "Marana, AZ (Pinal Airpark)",
+        "url": "https://ascentmro.com/",
+        "stats": "70-100 aircraft teardowns/year. 10 parallel teardown lines. 500-acre facility.",
+        "notes": "New $70M investment in wide-body hangars (Dec 2025). Key facility to watch."
+      },
+      {
+        "name": "TARMAC Aerosave",
+        "location": "Teruel (Spain), Tarbes & Toulouse (France)",
+        "url": "https://www.tarmacaerosave.aero/",
+        "notes": "Airbus/Safran/Suez JV. Europe's dominant teardown/recycling player."
+      },
+      {
+        "name": "Air Salvage International (ASI)",
+        "location": "Kemble, UK",
+        "notes": "UK-based teardown specialist."
+      },
+      {
+        "name": "AAR Corp",
+        "location": "Wood Dale, IL",
+        "url": "https://www.aarcorp.com/",
+        "notes": "Major USM distributor and MRO provider."
+      },
+      {
+        "name": "Magellan Aircraft Services",
+        "location": "Charlotte, NC",
+        "notes": "Aircraft teardown and parts distribution."
+      }
+    ]
+  },
+
+  "data_strategy_for_arbitrage": {
+    "tier_1_free_immediate": {
+      "description": "Start here. Free data sources that can be operationalized immediately.",
+      "actions": [
+        {
+          "source": "FAA DEREG.txt",
+          "action": "Download daily. Parse new deregistrations. Filter by aircraft type relevant to target parts. Cross-reference with parts price database.",
+          "url": "https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/releasable_aircraft_download",
+          "signal": "Aircraft deregistered = parts entering market within 3-12 months. Price of those parts will drop."
+        },
+        {
+          "source": "Planespotters.net",
+          "action": "Scrape production lists filtered by 'stored' status. Monitor changes weekly. Track which aircraft types are accumulating in storage.",
+          "signal": "Rising stored count for a type = growing parts supply = future price pressure."
+        },
+        {
+          "source": "Airfleets.net",
+          "action": "Scrape airline stored fleet pages. Track fleet transitions from active to stored.",
+          "signal": "Airlines parking specific types = those types becoming teardown candidates."
+        }
+      ]
+    },
+    "tier_2_low_cost": {
+      "description": "Moderate investment for significantly better data.",
+      "actions": [
+        {
+          "source": "ch-aviation (14-day trial, then subscription)",
+          "action": "Use stored/scrapped status filters to build comprehensive global picture. Export data. Set up monitoring.",
+          "signal": "Most actionable single database for stored aircraft intelligence."
+        },
+        {
+          "source": "FlightRadar24/FlightAware",
+          "action": "Build 'last flight detection' algorithm. Monitor specific tail numbers. Alert when aircraft stops flying for >30 days.",
+          "signal": "Early detection of aircraft entering storage before formal status change."
+        },
+        {
+          "source": "OpenSky Network",
+          "action": "Use free academic access for historical analysis. Build models of storage-to-teardown timelines.",
+          "signal": "Validate timing assumptions for parts supply entering market."
+        }
+      ]
+    },
+    "tier_3_enterprise": {
+      "description": "Premium data for serious operations.",
+      "actions": [
+        {
+          "source": "Cirium/Ascend",
+          "action": "Full fleet tracking + valuations. Model teardown economics per aircraft.",
+          "signal": "When aircraft value drops below parts-out value = teardown imminent."
+        },
+        {
+          "source": "IBA Group",
+          "action": "Lease-end tracking. When leases expire on older types, those aircraft often go to teardown.",
+          "signal": "Lease expiry data = 12-24 month advance signal of parts supply."
+        }
+      ]
+    }
+  },
+
+  "market_context": {
+    "feedstock_competition": "AerSale invested $100M in feedstock in 2025 but only wins 1 in 10 deals. Market is 'hypercompetitive'.",
+    "pre_pandemic_retirement_rate": "~1,100 aircraft retired annually",
+    "pandemic_peak_retirements": "2,500+ aircraft retired in 2020 alone",
+    "supply_demand_mismatch": "New aircraft deliveries lag demand until 2031-2034. This keeps older aircraft flying longer, REDUCING teardown feedstock and INCREASING USM parts prices.",
+    "market_size": "Aircraft parts market: $1.03 trillion in 2025, growing at 5.62% CAGR to $1.51T by 2032",
+    "key_insight": "The combination of slow new deliveries + aging fleets + competitive feedstock market = USM parts prices remain elevated. Arbitrage opportunity exists in early detection of teardown feedstock before prices adjust."
+  }
+}

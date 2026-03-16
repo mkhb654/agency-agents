@@ -1,0 +1,275 @@
+[
+  {
+    "ata_chapter": "72",
+    "system": "Engine - Turbine/Turboprop",
+    "component": "Turbine Blades (HPT/LPT)",
+    "aircraft_types": [
+      "B737",
+      "B777",
+      "A320",
+      "A330"
+    ],
+    "engine_types": [
+      "CFM56-7B",
+      "GE90",
+      "CFM LEAP",
+      "Trent 700"
+    ],
+    "failure_rate": "HIGH",
+    "replacement_frequency": "2000-4000 cycles",
+    "estimated_unit_price": "$15,000 - $50,000",
+    "demand_score": 95,
+    "arbitrage_signal": "High failure rate + high unit price + frequent replacement"
+  },
+  {
+    "ata_chapter": "32",
+    "system": "Landing Gear",
+    "component": "Tires",
+    "aircraft_types": [
+      "ALL"
+    ],
+    "engine_types": [
+      "N/A"
+    ],
+    "failure_rate": "VERY HIGH",
+    "replacement_frequency": "200-400 landings",
+    "estimated_unit_price": "$1,000 - $8,000",
+    "demand_score": 93,
+    "arbitrage_signal": "Highest volume consumable in aviation \u2014 retreads vs new"
+  },
+  {
+    "ata_chapter": "72",
+    "system": "Engine - Turbine/Turboprop",
+    "component": "Combustion Liners",
+    "aircraft_types": [
+      "B737",
+      "B757",
+      "A320"
+    ],
+    "engine_types": [
+      "CFM56-3",
+      "CFM56-5B",
+      "CFM56-7B"
+    ],
+    "failure_rate": "HIGH",
+    "replacement_frequency": "3000-6000 cycles",
+    "estimated_unit_price": "$20,000 - $80,000",
+    "demand_score": 92,
+    "arbitrage_signal": "Aging CFM56 fleet creates sustained demand"
+  },
+  {
+    "ata_chapter": "79",
+    "system": "Oil System",
+    "component": "Oil Seals & Bearings",
+    "aircraft_types": [
+      "ALL"
+    ],
+    "engine_types": [
+      "ALL"
+    ],
+    "failure_rate": "VERY HIGH",
+    "replacement_frequency": "1000-3000 hours",
+    "estimated_unit_price": "$500 - $5,000",
+    "demand_score": 90,
+    "arbitrage_signal": "Consumable \u2014 constant demand, high volume"
+  },
+  {
+    "ata_chapter": "73",
+    "system": "Engine Fuel & Control",
+    "component": "Fuel Nozzles",
+    "aircraft_types": [
+      "B737",
+      "B777",
+      "A320",
+      "A330"
+    ],
+    "engine_types": [
+      "CFM56",
+      "GE90",
+      "Trent"
+    ],
+    "failure_rate": "HIGH",
+    "replacement_frequency": "2000-5000 cycles",
+    "estimated_unit_price": "$3,000 - $15,000",
+    "demand_score": 88,
+    "arbitrage_signal": "Carbon buildup causes frequent replacement"
+  },
+  {
+    "ata_chapter": "32",
+    "system": "Landing Gear",
+    "component": "Brake Assemblies & Discs",
+    "aircraft_types": [
+      "ALL commercial"
+    ],
+    "engine_types": [
+      "N/A"
+    ],
+    "failure_rate": "HIGH",
+    "replacement_frequency": "500-1500 landings",
+    "estimated_unit_price": "$5,000 - $25,000",
+    "demand_score": 87,
+    "arbitrage_signal": "Consumable \u2014 high volume, predictable demand"
+  },
+  {
+    "ata_chapter": "32",
+    "system": "Landing Gear",
+    "component": "Main Landing Gear Actuators",
+    "aircraft_types": [
+      "B737",
+      "B757",
+      "B767",
+      "A320"
+    ],
+    "engine_types": [
+      "N/A"
+    ],
+    "failure_rate": "MEDIUM",
+    "replacement_frequency": "10 year overhaul",
+    "estimated_unit_price": "$30,000 - $100,000",
+    "demand_score": 85,
+    "arbitrage_signal": "Long lead time from OEM = premium for immediate availability"
+  },
+  {
+    "ata_chapter": "49",
+    "system": "Airborne Auxiliary Power",
+    "component": "APU (Auxiliary Power Unit)",
+    "aircraft_types": [
+      "B737",
+      "B757",
+      "A320"
+    ],
+    "engine_types": [
+      "Honeywell 131-9A",
+      "Honeywell GTCP331"
+    ],
+    "failure_rate": "MEDIUM",
+    "replacement_frequency": "Overhaul at 5000-8000 hours",
+    "estimated_unit_price": "$200,000 - $800,000",
+    "demand_score": 85,
+    "arbitrage_signal": "High unit value + teardown source availability"
+  },
+  {
+    "ata_chapter": "24",
+    "system": "Electrical Power",
+    "component": "Generators / IDGs",
+    "aircraft_types": [
+      "B737",
+      "B777",
+      "A320",
+      "A330"
+    ],
+    "engine_types": [
+      "ALL"
+    ],
+    "failure_rate": "MEDIUM-HIGH",
+    "replacement_frequency": "On condition / 5000hr OH",
+    "estimated_unit_price": "$30,000 - $120,000",
+    "demand_score": 83,
+    "arbitrage_signal": "Overhaul exchange programs = buy used, overhaul, sell at premium"
+  },
+  {
+    "ata_chapter": "29",
+    "system": "Hydraulic Power",
+    "component": "Hydraulic Pumps",
+    "aircraft_types": [
+      "B737",
+      "B757",
+      "A320",
+      "A330"
+    ],
+    "engine_types": [
+      "N/A"
+    ],
+    "failure_rate": "HIGH",
+    "replacement_frequency": "3000-8000 hours",
+    "estimated_unit_price": "$10,000 - $40,000",
+    "demand_score": 82,
+    "arbitrage_signal": "Common failure + moderate lead time = sourcing opportunity"
+  },
+  {
+    "ata_chapter": "34",
+    "system": "Navigation",
+    "component": "FMS (Flight Management System) Units",
+    "aircraft_types": [
+      "B737 NG",
+      "B757",
+      "A320 CEO"
+    ],
+    "engine_types": [
+      "N/A"
+    ],
+    "failure_rate": "MEDIUM",
+    "replacement_frequency": "Upgrade-driven",
+    "estimated_unit_price": "$50,000 - $200,000",
+    "demand_score": 80,
+    "arbitrage_signal": "Upgrade mandates (ADS-B, FANS) create forced demand"
+  },
+  {
+    "ata_chapter": "36",
+    "system": "Pneumatic",
+    "component": "Bleed Air Valves / Precoolers",
+    "aircraft_types": [
+      "B737",
+      "A320"
+    ],
+    "engine_types": [
+      "CFM56"
+    ],
+    "failure_rate": "HIGH",
+    "replacement_frequency": "2000-5000 hours",
+    "estimated_unit_price": "$5,000 - $20,000",
+    "demand_score": 80,
+    "arbitrage_signal": "SDR data shows high report frequency for bleed air issues"
+  },
+  {
+    "ata_chapter": "21",
+    "system": "Air Conditioning & Pressurization",
+    "component": "Pack Valves / ACMs",
+    "aircraft_types": [
+      "B737",
+      "A320"
+    ],
+    "engine_types": [
+      "N/A"
+    ],
+    "failure_rate": "HIGH",
+    "replacement_frequency": "3000-6000 hours",
+    "estimated_unit_price": "$15,000 - $60,000",
+    "demand_score": 79,
+    "arbitrage_signal": "Frequent dispatch-critical failure = AOG premium opportunity"
+  },
+  {
+    "ata_chapter": "27",
+    "system": "Flight Controls",
+    "component": "Servo Actuators",
+    "aircraft_types": [
+      "B737",
+      "B767",
+      "A320"
+    ],
+    "engine_types": [
+      "N/A"
+    ],
+    "failure_rate": "LOW-MEDIUM",
+    "replacement_frequency": "On condition",
+    "estimated_unit_price": "$20,000 - $80,000",
+    "demand_score": 78,
+    "arbitrage_signal": "Safety critical = zero tolerance for AOG = premium pricing"
+  },
+  {
+    "ata_chapter": "23",
+    "system": "Communications",
+    "component": "VHF Transceivers",
+    "aircraft_types": [
+      "ALL"
+    ],
+    "engine_types": [
+      "N/A"
+    ],
+    "failure_rate": "MEDIUM-HIGH",
+    "replacement_frequency": "5-8 years",
+    "estimated_unit_price": "$5,000 - $30,000",
+    "demand_score": 75,
+    "arbitrage_signal": "8.33 kHz mandate in Europe drives replacements"
+  }
+]

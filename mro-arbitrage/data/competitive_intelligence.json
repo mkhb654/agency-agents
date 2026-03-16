@@ -1,0 +1,122 @@
+{
+  "TransDigm Group (TDG)": {
+    "market_cap": "$77B+ (Mar 2026)",
+    "revenue": "$7.9B (FY2025)",
+    "aftermarket_revenue": "~55% of total (~$4.3B)",
+    "ebitda_margin": "~53% aftermarket segment",
+    "sole_source_pct": "80% of sales from sole-source parts",
+    "proprietary_pct": "90% of products are proprietary IP",
+    "avg_part_cost": "~$1,000 average; 90% cost <$5,000",
+    "strategy": "Acquire sole-source aerospace parts companies, raise prices",
+    "pricing_power": "Proprietary/sole-source parts with NO competition = 30-100% price increases",
+    "key_insight": "TransDigm parts are the MOST OVERPRICED in aviation. BUT 90% of their parts are <$5,000 making PMA uneconomical. Target the 10% that are >$5,000.",
+    "arbitrage_signal": "DOD IG audits publicly name the most overpriced TransDigm parts. Cross-ref against FAA DRS for PMA alternatives. DOD found $20.8M excess profit on just 105 parts.",
+    "dod_audit_examples": {
+      "half_inch_metal_pin": "$4,361 charged (9,400% profit)",
+      "fuel_valve": "Price raised from $543 to $9,801",
+      "clutch_disk": "$1,443 charged for $32 cost-to-make",
+      "data_refusal": "Refused cost data for 15 of 16 sampled contracts",
+      "regulatory_gap": "95%+ of DOD contracts below mandatory disclosure thresholds"
+    },
+    "pma_vulnerability": "Only economical for PMA competitors to target parts >$5,000 with sufficient volume. HEICO actively targets these.",
+    "top_subsidiaries": [
+      "Dukes Aerospace (fuel system components)",
+      "Kirkhill (elastomeric seals, gaskets)",
+      "Whippany Actuation (actuation systems)",
+      "Hartwell (latches, locks, fittings)",
+      "Marathon Norco (valves, regulators)",
+      "AvtechTyee (connectors, harnesses)"
+    ]
+  },
+  "HEICO Corporation (HEI)": {
+    "market_cap": "$32B+ (Mar 2026)",
+    "revenue_fy2024": "$3.86B",
+    "revenue_fy2025_run_rate": "$4.0B+",
+    "fsg_revenue_fy2024": "$2.6B (68% of total)",
+    "fsg_q2_fy2025": "$767.1M (+19% YoY, record)",
+    "fsg_operating_income_q2_fy2025": "$185M (+24% YoY, record)",
+    "fsg_ebitda_margin": "~26% (expanding ~120bps YoY)",
+    "consecutive_sequential_growth_quarters": 18,
+    "pma_parts_count": "19,500+ approved PMAs (12K HEICO + 7K Wencor)",
+    "next_closest_competitor_parts": "<2,000",
+    "new_pma_per_year": "~500 (1-2 new approvals per day)",
+    "parts_delivered_annually": "4 million+",
+    "pma_discount_initial": "30-40% below OEM list",
+    "pma_discount_over_5yr": "50-60% (HEICO doesn't pass through OEM price increases)",
+    "strategy": "Create FAA-approved alternatives to expensive OEM parts at scale",
+    "key_insight": "HEICO is your PRICING BENCHMARK for aftermarket parts. Their prices represent the competitive floor. 19,500 parts vs <2,000 for nearest competitor = massive moat.",
+    "arbitrage_signal": "When HEICO enters a new PMA category, the OEM price for that part drops 10-30% within 12-24 months. Monitor new PMA filings as leading indicator.",
+    "wencor_acquisition": "$2.05B (Aug 2023) - little to no PMA overlap, added USM/rotable exchange/distribution capabilities",
+    "pma_management_program": "Airlines get HEICO parts + third-party PMA sourcing + quality audits + tailored cost-saving strategies as one package",
+    "lht_partnership": "Lufthansa Technik holds 20% stake in HEICO Aerospace",
+    "top_subsidiaries": [
+      "Jet Avion (engine parts PMA)",
+      "Turbine Kinetics Inc (turbine components)",
+      "Reinhold Industries (composites)",
+      "Flight Specialties Components Corp",
+      "Wencor Group (PMA + USM + distribution)",
+      "Santa Barbara Infrared (sensors)",
+      "Sierra Microwave Technology (electronics)"
+    ]
+  },
+  "AerSale Inc (ASLE)": {
+    "market_cap": "~$500M (Mar 2026)",
+    "revenue": "$348M (FY2024)",
+    "feedstock_investment": "$100M invested in aircraft feedstock (2025)",
+    "win_rate": "1 in 10 bids for teardown feedstock",
+    "strategy": "Buy whole aircraft, tear down, sell USM parts + engines",
+    "key_insight": "AerSale's win rate (10%) shows how competitive the feedstock market is. Prices for whole aircraft being parted out are HIGH relative to parts-out value.",
+    "arbitrage_signal": "AerSale's quarterly feedstock disclosures reveal which aircraft types are being acquired for teardown. This signals which parts will enter the USM market in 3-6 months.",
+    "location": "Coral Gables, FL (your backyard)"
+  },
+  "FTAI Aviation (FTAI)": {
+    "market_cap": "$16B+ (Mar 2026)",
+    "revenue": "$2.1B (FY2025 estimate)",
+    "engine_fleet": "1,000+ engines (primarily CFM56)",
+    "module_factory_target": "1,000 modules in 2026",
+    "aar_exclusive": "Exclusive CFM56 USM deal with AAR through 2030",
+    "pma_jv": "Joint venture with Chromalloy for PMA engine parts (started 2021)",
+    "chromalloy_jv_details": {
+      "focus": "CFM56 hot-section PMA parts",
+      "parts_planned": 5,
+      "parts_approved": 2,
+      "savings_per_shop_visit": "$2M with all 5 parts",
+      "ebitda_per_module": "$1M (50% from Chromalloy PMAs)",
+      "pma_discount_vs_oem": "60-70%",
+      "80pct_savings_from_first_3_parts": true,
+      "demand": "Backlog sold out through 2025, booking 2026 slots"
+    },
+    "margins": "35% current, targeting 50%+",
+    "strategy": "Vertically integrated CFM56 empire: acquire engines, modularize, PMA parts, sell USM",
+    "key_insight": "FTAI is doing at INDUSTRIAL SCALE what you're doing at deal level. Their Chromalloy PMA JV saves $2M per shop visit - half their module margin comes from PMA.",
+    "arbitrage_signal": "FTAI's module approach (swap modules instead of full overhaul) is disrupting MRO pricing. MROs that can't match this speed lose customers = they need YOUR help sourcing modules."
+  },
+  "Chromalloy (Engine PMA Specialist)": {
+    "description": "Only independent provider of FAA-approved PMA parts for hot section of aerospace engines",
+    "pma_parts_count": "50+ gas path PMA parts",
+    "safety_record": "6 billion+ flight hours, ZERO airworthiness directives",
+    "ceo": "Chris Celtruda",
+    "engine_platforms": ["CF6-80C2", "CFM56-3", "CFM56-5B", "CFM56-7B", "PW4000", "V2500 SelectOne"],
+    "cost_savings_examples": {
+      "cfm56_hpt_vane": "$5,000 PMA vs $20,000 OEM (75% discount)",
+      "cf6_50_overhaul": "20-25% total overhaul cost reduction",
+      "general_range": "20-70% below OEM"
+    },
+    "key_partnerships": [
+      "FTAI Aviation (CFM56 PMA JV)",
+      "Lufthansa Technik (V2500, CF6, CFM56 PMA development)",
+      "AAR Corp (exclusive CF6-80C2 HPT blade distribution)"
+    ],
+    "key_insight": "Chromalloy is the ENGINE PMA king - if you need hot-section parts at discount, they are the source. Their backlog is sold out.",
+    "arbitrage_signal": "New Chromalloy PMA certifications signal immediate cost reduction opportunity for specific engine shop visits. Track their approvals."
+  },
+  "AAR Corp (AIR)": {
+    "market_cap": "~$3B (Mar 2026)",
+    "revenue": "$2.6B (FY2025)",
+    "distribution_segment": "Parts supply chain \u2014 $1.4B+ revenue",
+    "government_pct": "~30% of revenue from US government",
+    "strategy": "Parts distribution + MRO services + government contracts",
+    "key_insight": "AAR is the largest independent MRO/distribution company. Their pricing on the distribution side IS the market benchmark for parts.",
+    "arbitrage_signal": "AAR's exclusive deal with FTAI for CFM56 USM means they control a huge chunk of CFM56 parts flow. If you're sourcing CFM56 parts, you're eventually competing with AAR or buying from them."
+  }
+}

@@ -123,7 +123,7 @@ class Settings(BaseSettings):
     # ------------------------------------------------------------------
     # Server
     # ------------------------------------------------------------------
-    api_host: str = Field(default="0.0.0.0", description="FastAPI bind host.")
+    api_host: str = Field(default="127.0.0.1", description="FastAPI bind host.")
     api_port: int = Field(default=8000, ge=1, le=65535, description="FastAPI bind port.")
 
     # ------------------------------------------------------------------

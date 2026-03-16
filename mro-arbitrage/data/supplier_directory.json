@@ -1,0 +1,194 @@
+{
+  "FSR CONSULTING LLC": {
+    "total_value": 38531.5,
+    "contract_count": 1,
+    "parts": [
+      "engine fan blade"
+    ],
+    "agencies": [
+      "Department of Defense"
+    ],
+    "descriptions": [
+      "ENGINE FAN BLADE STANDS"
+    ]
+  },
+  "WOODWARD, INC.": {
+    "total_value": 1366398.0,
+    "contract_count": 5,
+    "parts": [
+      "engine fuel control"
+    ],
+    "agencies": [
+      "Department of Defense"
+    ],
+    "descriptions": [
+      "F107-100 ENGINE FUEL CONTROL",
+      "F107-100 ENGINE FUEL CONTROL",
+      "F107-100 ENGINE FUEL CONTROL",
+      "F107-100 ENGINE FUEL CONTROL",
+      "F107-100 ENGINE FUEL CONTROL"
+    ]
+  },
+  "ENGINEERING AND SOFTWARE SYSTEM SOLUTIONS, INC.": {
+    "total_value": 502710.49,
+    "contract_count": 1,
+    "parts": [
+      "aircraft tire"
+    ],
+    "agencies": [
+      "Department of Defense"
+    ],
+    "descriptions": [
+      "ENGINEERING SERVICES AIRCRAFT TIRE REQUIREMENTS ANALYSIS"
+    ]
+  },
+  "LEIDOS, INC.": {
+    "total_value": 7992366.21,
+    "contract_count": 1,
+    "parts": [
+      "flight control computer"
+    ],
+    "agencies": [
+      "Department of Defense"
+    ],
+    "descriptions": [
+      "AIS/PSI ENGINEERING SUPPORT HYBRID FLIGHT CONTROL COMPUTER/AIR GROUND COLISSION AVOIDANCE SYSTEM"
+    ]
+  },
+  "BELL BOEING JOINT PROJECT OFFICE": {
+    "total_value": 387070154.02,
+    "contract_count": 3,
+    "parts": [
+      "rudder actuator"
+    ],
+    "agencies": [
+      "Department of Defense"
+    ],
+    "descriptions": [
+      "NON-RECURRING ENGINEERING (NRE)FOR RUDDER ACTUATOR",
+      "NON-RECURRING ENGINEERING (NRE)FOR V-22 FLIGHT CONTROL SYSTEM.",
+      "NON-RECURRING ENGINEERING FOR V-22 FOR GOVERNMENT OF JAPAN."
+    ]
+  },
+  "DEFENSE SYSTEMS AND SOLUTIONS": {
+    "total_value": 730443.0,
+    "contract_count": 1,
+    "parts": [
+      "auxiliary power unit APU"
+    ],
+    "agencies": [
+      "Department of Defense"
+    ],
+    "descriptions": [
+      "H-60L 35KVA GENERATOR AUXILIARY POWER UNIT (APU) DESIGN AND INTEGRATION, HARDWARE OF THE SYSTEMS AND"
+    ]
+  },
+  "D-J ENGINEERING INC": {
+    "total_value": 1346404.64,
+    "contract_count": 1,
+    "parts": [
+      "leading edge slat"
+    ],
+    "agencies": [
+      "Department of Defense"
+    ],
+    "descriptions": [
+      "NSN:1560-01-090-0539FJ, A-10 LEADING EDGE SLAT ASSEMBLY"
+    ]
+  },
+  "SIKORSKY AIRCRAFT CORPORATION": {
+    "total_value": 3010046248.88,
+    "contract_count": 1,
+    "parts": [],
+    "agencies": [],
+    "descriptions": [
+      "IGF::OT::IGF PRESIDENTIAL HELICOPTER REPLACEMENT PROGRAM (VXX) ENGINEERING AND MANUFACTURING DEVELOP"
+    ]
+  },
+  "LOCKHEED MARTIN CORP": {
+    "total_value": 1564462687.0,
+    "contract_count": 1,
+    "parts": [],
+    "agencies": [],
+    "descriptions": [
+      "C-130J COMBINED AIRCRAFT DELIVERY DEVELOPMENT INTEGRATION AND ENGINEERING (CADDIE) FY23 C-130J CONGR"
+    ]
+  },
+  "THE BOEING COMPANY": {
+    "total_value": 2447630903.4500003,
+    "contract_count": 3,
+    "parts": [],
+    "agencies": [],
+    "descriptions": [
+      "B-52 COMMERCIAL ENGINE REPLACEMENT PROGRAM (CERP) RAPID PROTOTYPING 1 (RP1)",
+      "NON-RECURRING ENGINEERING AND AAE ITEMS IN SUPPORT OF KUWAIT VARIANT OF F/A-18 SUPER HORNET",
+      "NGEAU NON-RECURRING ENGINEERING (NRE) AND PRODUCTION OF A-KITS AND B-KITS."
+    ]
+  },
+  "GENERAL ELECTRIC COMPANY": {
+    "total_value": 5451705436.45,
+    "contract_count": 15,
+    "parts": [],
+    "agencies": [],
+    "descriptions": [
+      "ADAPTIVE ENGINE TRANSITION PROGRAM  (AETP)",
+      "REQUIREMENT IS TO DESIGN, DEVELOP, QUALIFY AND INTEGRATE AN IMPROVED TURBINE ENGINE (ITE) FOR THE EM",
+      "T408 IAF ENGINES AND COST REDUCTION INITIATIVES",
+      "T700 SERIES ENGINE PRODUCTION",
+      "F110 TAIWAN ENGINE COVID-19 DIB"
+    ]
+  },
+  "RTX CORPORATION": {
+    "total_value": 3681714280.38,
+    "contract_count": 6,
+    "parts": [],
+    "agencies": [],
+    "descriptions": [
+      "ADAPTIVE ENGINE TRANSITION PROGRAM  (AETP)",
+      "DEPOT COMMON ENGINE PARTS",
+      "DO3 - ENGINE BUILD, TEST, MATURATION AND INTEGRATION",
+      "PW F100 PRODUCTION, MOROCCO INSTALL ENGINES",
+      "PRATT AND WHITNEY FOREIGN MILITARY SALES F100 PRODUCTION, POLAND SPARE ENGINES."
+    ]
+  },
+  "ROLLS-ROYCE CORPORATION": {
+    "total_value": 1251359090.0800002,
+    "contract_count": 6,
+    "parts": [],
+    "agencies": [],
+    "descriptions": [
+      "T108 PROPULSION SUSTAINMENT SYSTEM- (ENGINE, NACELLE, AND PROPELLER) PRICE PER ENGINE FLYING HOUR.",
+      "AE1107C ENGINE SUST. SUPPORT",
+      "36 MT7 TURBOSHAFT PRODUCTION ENGINES, PRODUCTION ENGINE ANCILLARY PARTS KITS, AND INSTALLATION KITS ",
+      "T108 ENGINE, NACELLE, AND PROPELLER SUSTAINMENT. PRICE PER FLYING HOUR.",
+      "PROCURE PM, SITE SUPPORT, ENGINE FLIGHT HOURS, AND REPAIR OF LOW POWER REMOVALS"
+    ]
+  },
+  "LOCKHEED MARTIN CORPORATION": {
+    "total_value": 603196868.19,
+    "contract_count": 1,
+    "parts": [],
+    "agencies": [],
+    "descriptions": [
+      "IGF::OT::IGF  AFSOC ACTS AWARD OF CONTRACT FOR CLS, ENGINEERING, INSTRUCTION, CYBERSECURITY, DMO"
+    ]
+  },
+  "NORTHROP GRUMMAN SYSTEMS CORPORATION": {
+    "total_value": 582700000.0,
+    "contract_count": 1,
+    "parts": [],
+    "agencies": [],
+    "descriptions": [
+      "E130J ENGINEERING AND MANUFACTURING DEVELOPMENT (EMD)"
+    ]
+  },
+  "NOVA TECHNOLOGIES AN EMPLOYEE-OWNED ENGINEERING COMPANY": {
+    "total_value": 303155945.49,
+    "contract_count": 1,
+    "parts": [],
+    "agencies": [],
+    "descriptions": [
+      "C130-J MAINTENANCE AND AIRCREW TRAINING SYSTEM"
+    ]
+  }
+}

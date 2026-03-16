@@ -1,10 +1,15 @@
 import type {
+  AnalystCategory,
   AnalystConfig,
+  AnalystSignal,
   AnalysisRequest,
   AnalysisResult,
   BacktestRequest,
   BacktestResult,
   ModelOption,
+  SignalDirection,
+  TradeAction,
+  TradeDecision,
   WSMessage,
 } from "@/types";
 
@@ -37,16 +42,50 @@ async function request<T>(
 
 export async function fetchAnalysts(): Promise<AnalystConfig[]> {
   try {
-    return await request<AnalystConfig[]>("/analysts");
+    const res = await request<{ analysts: { name: string; display_name: string; description: string }[]; total: number }>("/analysts");
+    // Map backend shape to frontend AnalystConfig
+    const categoryMap: Record<string, AnalystCategory> = {
+      ben_graham: "investor_personas",
+      warren_buffett: "investor_personas",
+      peter_lynch: "investor_personas",
+      cathie_wood: "investor_personas",
+      michael_burry: "investor_personas",
+      stanley_druckenmiller: "investor_personas",
+      fundamentals_analyst: "analytical",
+      technical_analyst: "analytical",
+      sentiment_analyst: "analytical",
+      valuation_analyst: "analytical",
+      macro_analyst: "analytical",
+      risk_manager: "decision",
+      portfolio_manager: "decision",
+    };
+    return res.analysts.map((a) => ({
+      id: a.name,
+      name: a.display_name,
+      description: a.description,
+      category: categoryMap[a.name] ?? "analytical",
+    }));
   } catch {
-    // Return default analysts when API is unavailable
     return getDefaultAnalysts();
   }
 }
 
 export async function fetchModels(): Promise<ModelOption[]> {
   try {
-    return await request<ModelOption[]>("/models");
+    const res = await request<{ models: { provider: string; model_id: string; is_default: boolean }[]; total: number }>("/models");
+    const nameMap: Record<string, string> = {
+      "openai:gpt-4.1": "GPT-4.1 (OpenAI)",
+      "anthropic:claude-sonnet-4-20250514": "Claude Sonnet 4 (Anthropic)",
+      "google:gemini-2.0-flash": "Gemini 2.0 Flash (Google)",
+      "groq:llama-3.3-70b-versatile": "Llama 3.3 70B (Groq)",
+      "deepseek:deepseek-chat": "DeepSeek Chat",
+      "ollama:llama3.2": "Llama 3.2 (Ollama - Free)",
+    };
+    return res.models.map((m) => ({
+      provider: m.provider,
+      model_id: m.model_id,
+      display_name: nameMap[`${m.provider}:${m.model_id}`] ?? `${m.model_id} (${m.provider})`,
+    }));
   } catch {
     return getDefaultModels();
   }
@@ -55,10 +94,72 @@ export async function fetchModels(): Promise<ModelOption[]> {
 export async function runAnalysis(
   req: AnalysisRequest,
 ): Promise<AnalysisResult> {
-  return request<AnalysisResult>("/analysis", {
+  // Map frontend field names to backend expected names
+  const backendReq = {
+    tickers: req.tickers,
+    analysts: req.analysts,
+    model_provider: req.model_provider,
+    model_name: req.model_id,
+    start_date: req.start_date,
+    end_date: req.end_date,
+    show_reasoning: true,
+  };
+
+  const taskRes = await request<{ task_id: string; status: string; tickers: string[]; signals: unknown[]; decisions: unknown[]; message: string }>("/analyze", {
     method: "POST",
-    body: JSON.stringify(req),
+    body: JSON.stringify(backendReq),
   });
+
+  // Poll for completion
+  const taskId = taskRes.task_id;
+  let attempts = 0;
+  const maxAttempts = 120; // 2 minutes max
+
+  while (attempts < maxAttempts) {
+    await new Promise((r) => setTimeout(r, 2000));
+    const status = await request<{ task_id: string; status: string; progress: number; message: string; result: Record<string, unknown> | null }>(`/tasks/${taskId}`);
+
+    if (status.status === "completed" && status.result) {
+      const signals: Record<string, AnalystSignal[]> = {};
+      const rawSignals = (status.result.signals ?? []) as Array<{ analyst: string; ticker: string; signal: string; confidence: number; reasoning?: Record<string, unknown> }>;
+      for (const s of rawSignals) {
+        if (!signals[s.analyst]) signals[s.analyst] = [];
+        signals[s.analyst].push({
+          signal: s.signal as SignalDirection,
+          confidence: s.confidence,
+          reasoning: s.reasoning ?? {},
+          agent_name: s.analyst,
+          ticker: s.ticker,
+        });
+      }
+
+      const rawDecisions = (status.result.decisions ?? []) as Array<{ action: string; ticker: string; quantity: number; confidence: number; reasoning: string }>;
+      const decisions: TradeDecision[] = rawDecisions.map((d) => ({
+        action: d.action as TradeAction,
+        ticker: d.ticker,
+        quantity: d.quantity,
+        confidence: d.confidence,
+        reasoning: d.reasoning,
+      }));
+
+      return {
+        tickers: req.tickers,
+        signals,
+        decisions,
+        risk_assessment: null,
+        portfolio: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+
+    if (status.status === "failed") {
+      throw new Error(status.message || "Analysis failed");
+    }
+
+    attempts++;
+  }
+
+  throw new Error("Analysis timed out");
 }
 
 export async function runBacktest(
@@ -210,5 +311,7 @@ function getDefaultModels(): ModelOption[] {
     { provider: "google", model_id: "gemini-2.0-flash", display_name: "Gemini 2.0 Flash (Google)" },
     { provider: "groq", model_id: "llama-3.3-70b-versatile", display_name: "Llama 3.3 70B (Groq)" },
     { provider: "deepseek", model_id: "deepseek-chat", display_name: "DeepSeek Chat" },
+    { provider: "ollama", model_id: "qwen3:14b", display_name: "Qwen3 14B (Ollama - Free)" },
+    { provider: "ollama", model_id: "llama3.2", display_name: "Llama 3.2 (Ollama - Free)" },
   ];
 }

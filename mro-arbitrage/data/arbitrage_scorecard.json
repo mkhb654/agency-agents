@@ -1,0 +1,252 @@
+[
+  {
+    "component": "APU (Auxiliary Power Unit)",
+    "ata_chapter": "49",
+    "system": "Airborne Auxiliary Power",
+    "composite_score": 79.0,
+    "demand_score": 85,
+    "mid_price": 500000,
+    "best_arbitrage_type": "overhaul_spread",
+    "estimated_profit_per_unit": 150000,
+    "aircraft_types": [
+      "B737",
+      "B757",
+      "A320"
+    ],
+    "failure_rate": "MEDIUM",
+    "signal": "High unit value + teardown source availability"
+  },
+  {
+    "component": "FMS (Flight Management System) Units",
+    "ata_chapter": "34",
+    "system": "Navigation",
+    "composite_score": 77.0,
+    "demand_score": 80,
+    "mid_price": 125000,
+    "best_arbitrage_type": "overhaul_spread",
+    "estimated_profit_per_unit": 37500,
+    "aircraft_types": [
+      "B737 NG",
+      "B757",
+      "A320 CEO"
+    ],
+    "failure_rate": "MEDIUM",
+    "signal": "Upgrade mandates (ADS-B, FANS) create forced demand"
+  },
+  {
+    "component": "Generators / IDGs",
+    "ata_chapter": "24",
+    "system": "Electrical Power",
+    "composite_score": 74.0,
+    "demand_score": 83,
+    "mid_price": 75000,
+    "best_arbitrage_type": "overhaul_spread",
+    "estimated_profit_per_unit": 22500,
+    "aircraft_types": [
+      "B737",
+      "B777",
+      "A320",
+      "A330"
+    ],
+    "failure_rate": "MEDIUM-HIGH",
+    "signal": "Overhaul exchange programs = buy used, overhaul, sell at premium"
+  },
+  {
+    "component": "Combustion Liners",
+    "ata_chapter": "72",
+    "system": "Engine - Turbine/Turboprop",
+    "composite_score": 71.8,
+    "demand_score": 92,
+    "mid_price": 50000,
+    "best_arbitrage_type": "aog_premium",
+    "estimated_profit_per_unit": 75000,
+    "aircraft_types": [
+      "B737",
+      "B757",
+      "A320"
+    ],
+    "failure_rate": "HIGH",
+    "signal": "Aging CFM56 fleet creates sustained demand"
+  },
+  {
+    "component": "Main Landing Gear Actuators",
+    "ata_chapter": "32",
+    "system": "Landing Gear",
+    "composite_score": 71.8,
+    "demand_score": 85,
+    "mid_price": 65000,
+    "best_arbitrage_type": "overhaul_spread",
+    "estimated_profit_per_unit": 19500,
+    "aircraft_types": [
+      "B737",
+      "B757",
+      "B767",
+      "A320"
+    ],
+    "failure_rate": "MEDIUM",
+    "signal": "Long lead time from OEM = premium for immediate availability"
+  },
+  {
+    "component": "Turbine Blades (HPT/LPT)",
+    "ata_chapter": "72",
+    "system": "Engine - Turbine/Turboprop",
+    "composite_score": 71.1,
+    "demand_score": 95,
+    "mid_price": 32500,
+    "best_arbitrage_type": "aog_premium",
+    "estimated_profit_per_unit": 48750,
+    "aircraft_types": [
+      "B737",
+      "B777",
+      "A320",
+      "A330"
+    ],
+    "failure_rate": "HIGH",
+    "signal": "High failure rate + high unit price + frequent replacement"
+  },
+  {
+    "component": "Hydraulic Pumps",
+    "ata_chapter": "29",
+    "system": "Hydraulic Power",
+    "composite_score": 63.6,
+    "demand_score": 82,
+    "mid_price": 25000,
+    "best_arbitrage_type": "aog_premium",
+    "estimated_profit_per_unit": 37500,
+    "aircraft_types": [
+      "B737",
+      "B757",
+      "A320",
+      "A330"
+    ],
+    "failure_rate": "HIGH",
+    "signal": "Common failure + moderate lead time = sourcing opportunity"
+  },
+  {
+    "component": "Fuel Nozzles",
+    "ata_chapter": "73",
+    "system": "Engine Fuel & Control",
+    "composite_score": 61.2,
+    "demand_score": 88,
+    "mid_price": 9000,
+    "best_arbitrage_type": "aog_premium",
+    "estimated_profit_per_unit": 13500,
+    "aircraft_types": [
+      "B737",
+      "B777",
+      "A320",
+      "A330"
+    ],
+    "failure_rate": "HIGH",
+    "signal": "Carbon buildup causes frequent replacement"
+  },
+  {
+    "component": "Servo Actuators",
+    "ata_chapter": "27",
+    "system": "Flight Controls",
+    "composite_score": 61.2,
+    "demand_score": 78,
+    "mid_price": 50000,
+    "best_arbitrage_type": "overhaul_spread",
+    "estimated_profit_per_unit": 15000,
+    "aircraft_types": [
+      "B737",
+      "B767",
+      "A320"
+    ],
+    "failure_rate": "LOW-MEDIUM",
+    "signal": "Safety critical = zero tolerance for AOG = premium pricing"
+  },
+  {
+    "component": "Pack Valves / ACMs",
+    "ata_chapter": "21",
+    "system": "Air Conditioning & Pressurization",
+    "composite_score": 59.5,
+    "demand_score": 79,
+    "mid_price": 37500,
+    "best_arbitrage_type": "aog_premium",
+    "estimated_profit_per_unit": 56250,
+    "aircraft_types": [
+      "B737",
+      "A320"
+    ],
+    "failure_rate": "HIGH",
+    "signal": "Frequent dispatch-critical failure = AOG premium opportunity"
+  },
+  {
+    "component": "Brake Assemblies & Discs",
+    "ata_chapter": "32",
+    "system": "Landing Gear",
+    "composite_score": 52.6,
+    "demand_score": 87,
+    "mid_price": 15000,
+    "best_arbitrage_type": "aog_premium",
+    "estimated_profit_per_unit": 22500,
+    "aircraft_types": [
+      "ALL commercial"
+    ],
+    "failure_rate": "HIGH",
+    "signal": "Consumable \u2014 high volume, predictable demand"
+  },
+  {
+    "component": "Bleed Air Valves / Precoolers",
+    "ata_chapter": "36",
+    "system": "Pneumatic",
+    "composite_score": 52.4,
+    "demand_score": 80,
+    "mid_price": 12500,
+    "best_arbitrage_type": "aog_premium",
+    "estimated_profit_per_unit": 18750,
+    "aircraft_types": [
+      "B737",
+      "A320"
+    ],
+    "failure_rate": "HIGH",
+    "signal": "SDR data shows high report frequency for bleed air issues"
+  },
+  {
+    "component": "Tires",
+    "ata_chapter": "32",
+    "system": "Landing Gear",
+    "composite_score": 51.9,
+    "demand_score": 93,
+    "mid_price": 4500,
+    "best_arbitrage_type": "aog_premium",
+    "estimated_profit_per_unit": 6750,
+    "aircraft_types": [
+      "ALL"
+    ],
+    "failure_rate": "VERY HIGH",
+    "signal": "Highest volume consumable in aviation \u2014 retreads vs new"
+  },
+  {
+    "component": "Oil Seals & Bearings",
+    "ata_chapter": "79",
+    "system": "Oil System",
+    "composite_score": 50.2,
+    "demand_score": 90,
+    "mid_price": 2750,
+    "best_arbitrage_type": "aog_premium",
+    "estimated_profit_per_unit": 4125,
+    "aircraft_types": [
+      "ALL"
+    ],
+    "failure_rate": "VERY HIGH",
+    "signal": "Consumable \u2014 constant demand, high volume"
+  },
+  {
+    "component": "VHF Transceivers",
+    "ata_chapter": "23",
+    "system": "Communications",
+    "composite_score": 43.6,
+    "demand_score": 75,
+    "mid_price": 17500,
+    "best_arbitrage_type": "pma_spread",
+    "estimated_profit_per_unit": 6125,
+    "aircraft_types": [
+      "ALL"
+    ],
+    "failure_rate": "MEDIUM-HIGH",
+    "signal": "8.33 kHz mandate in Europe drives replacements"
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "feature_cols": [
+    "year",
+    "month",
+    "day_of_week",
+    "week_of_year",
+    "quarter",
+    "month_sin",
+    "month_cos",
+    "dow_sin",
+    "dow_cos",
+    "is_pre_covid",
+    "is_covid_peak",
+    "is_post_covid",
+    "days_since_covid",
+    "lane_code",
+    "distance_miles",
+    "log_distance",
+    "weight",
+    "log_weight",
+    "equipment_code",
+    "mode_code",
+    "lead_time_days",
+    "lane_avg_price_30d",
+    "lane_avg_price_60d",
+    "lane_avg_price_90d",
+    "fuel_surcharge",
+    "customer_code"
+  ],
+  "n_train": 13471,
+  "n_test": 1529,
+  "n_features": 26,
+  "test_meta": {
+    "actual_cost": true,
+    "won": true
+  },
+  "regime_changes": [
+    [
+      "2023-07-31 00:00:00",
+      "UP"
+    ],
+    [
+      "2023-08-31 00:00:00",
+      "DOWN"
+    ],
+    [
+      "2023-11-30 00:00:00",
+      "UP"
+    ],
+    [
+      "2024-02-29 00:00:00",
+      "DOWN"
+    ],
+    [
+      "2024-08-31 00:00:00",
+      "UP"
+    ],
+    [
+      "2025-03-31 00:00:00",
+      "DOWN"
+    ],
+    [
+      "2025-04-30 00:00:00",
+      "UP"
+    ],
+    [
+      "2025-05-31 00:00:00",
+      "DOWN"
+    ],
+    [
+      "2025-06-30 00:00:00",
+      "UP"
+    ],
+    [
+      "2025-07-31 00:00:00",
+      "DOWN"
+    ],
+    [
+      "2025-11-30 00:00:00",
+      "UP"
+    ]
+  ]
+}

@@ -27,6 +27,13 @@ yarn-error.log*
 package-lock.json
 yarn.lock
 
+# Secrets - NEVER commit these
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
 # Python (if adding scripts)
 __pycache__/
 *.py[cod]
@@ -37,6 +44,10 @@ env/
 venv/
 ENV/
 .venv
+
+# Database
+*.db
+*.sqlite3
 
 # Logs
 *.log

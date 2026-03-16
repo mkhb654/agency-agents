@@ -78,8 +78,8 @@ def create_app() -> FastAPI:
             "http://127.0.0.1:5173",
         ],
         allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
+        allow_methods=["GET", "POST", "OPTIONS"],
+        allow_headers=["Content-Type", "Authorization"],
     )
 
     # ------------------------------------------------------------------
@@ -93,7 +93,6 @@ def create_app() -> FastAPI:
             status_code=500,
             content={
                 "error": "Internal server error",
-                "detail": str(exc),
             },
         )
 
@@ -104,7 +103,7 @@ def create_app() -> FastAPI:
             status_code=400,
             content={
                 "error": "Bad request",
-                "detail": str(exc),
+                "detail": "Invalid input parameters",
             },
         )
 

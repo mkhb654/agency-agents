@@ -1,0 +1,332 @@
+{
+  "research_date": "2026-03-15",
+  "title": "PMA (Parts Manufacturer Approval) Landscape: Actionable Arbitrage Intelligence",
+
+  "market_overview": {
+    "global_pma_market_size_2024": "$11.4 billion",
+    "projected_market_size_2033": "$15.6 billion",
+    "cagr": "3.5% (IMARC) to 5.3% (Technavio)",
+    "active_pma_part_numbers_globally": "550,000+",
+    "aircraft_using_pma_parts_2023": "15,000+ commercial aircraft",
+    "total_commercial_fleet_supported": "29,000+",
+    "us_pma_approvals_2023": "2,400+ (out of 3,600+ worldwide)",
+    "largest_component_segment": "Engine filters (42.8% of market in 2024)",
+    "fastest_growing_region": "Asia-Pacific (29.9% share in 2024, 41% of growth)",
+    "key_growth_drivers": [
+      "OEM supply chain strain creating urgency for alternative parts",
+      "Aircraft delivery delays forcing airlines to keep older fleets longer",
+      "Cost pressures on airlines post-COVID",
+      "Advances in manufacturing (3D printing, new materials)",
+      "Growing cooperation between OEM type certificate holders and PMA companies"
+    ]
+  },
+
+  "heico_corporation": {
+    "ticker": "HEI / HEI.A",
+    "market_cap": "$32B+ (Mar 2026)",
+    "total_revenue_fy2024": "$3.86 billion",
+    "flight_support_group_revenue_fy2024": "$2.6 billion (68% of total)",
+    "fsg_q1_fy2025": "$713.2 million (+15% YoY)",
+    "fsg_q2_fy2025": "$767.1 million (+19% YoY)",
+    "fsg_operating_income_q2_fy2025": "$185 million (+24% YoY)",
+    "fsg_ebitda_margin": "~26% (and expanding ~120bps YoY)",
+    "consecutive_sequential_growth_quarters": 18,
+    "pma_parts": {
+      "total_faa_approved_parts": "19,500+ (post-Wencor acquisition)",
+      "heico_legacy_parts": "~12,000",
+      "wencor_parts_added": "~7,000",
+      "new_parts_per_year": "500+ (1-2 new PMA approvals per day)",
+      "parts_delivered_annually": "4 million+",
+      "next_closest_competitor": "Less than 2,000 parts"
+    },
+    "discount_vs_oem": {
+      "initial_discount": "30-40% below OEM list price",
+      "discount_over_time": "Grows to 50-60% over 5 years because HEICO does not pass through OEM-level price increases",
+      "typical_range": "20-60% depending on part category and time since PMA entry"
+    },
+    "aircraft_engine_coverage": {
+      "aircraft_types": "Large commercial, regional, business, and military aircraft",
+      "engine_platforms": "Nearly every engine platform (CFM56, LEAP, CF6, GE90, V2500, PW4000, etc.)",
+      "ata_chapters": "Most ATA chapters covered",
+      "specific_parts": [
+        "Nuts/bolts",
+        "Combustors",
+        "Rotating airfoils",
+        "Fuel pump gears",
+        "Bronze bearings",
+        "Fuel pumps",
+        "Flow dividers",
+        "Fuel heaters",
+        "Fuel nozzles",
+        "Harnesses",
+        "MECs (Main Engine Controls)",
+        "FFRs (Fuel Flow Regulators)",
+        "Interior components / IFE",
+        "Composite parts",
+        "Landing gear components (incl. 3D-printed)"
+      ]
+    },
+    "key_subsidiaries_parts_group": [
+      "Jet Avion Corporation (engine parts PMA)",
+      "Turbine Kinetics Inc (turbine components)",
+      "Reinhold Industries (composites)",
+      "Flight Specialties Components Corp",
+      "Wencor Group (acquired Aug 2023 for $2.05B)"
+    ],
+    "wencor_acquisition": {
+      "acquisition_date": "August 4, 2023",
+      "price": "$1.9 billion cash + $150 million in HEICO Class A stock",
+      "seller": "Warburg Pincus LLC",
+      "strategic_value": "Largest HEICO acquisition ever; little to no PMA overlap",
+      "wencor_capabilities": [
+        "PMA design and development",
+        "CMM and DER component maintenance repair",
+        "Program management and services",
+        "Used serviceable material (USM)",
+        "Rotable exchanges",
+        "Distribution network"
+      ]
+    },
+    "pma_management_program": "Comprehensive solution including HEICO parts, third-party PMA sourcing, quality audits, and tailored cost-saving strategies",
+    "competitive_moat": "Scale advantage is enormous: 19,500+ parts vs <2,000 for nearest competitor. Each new PMA costs $50K-$500K+ to certify, creating massive barrier to entry."
+  },
+
+  "chromalloy": {
+    "description": "Only independent provider of FAA-approved PMA parts and DER repairs for hot section of aerospace engines",
+    "pma_parts_count": "50+ gas path PMA parts",
+    "safety_record": "6 billion+ flight hours, ZERO airworthiness directives",
+    "ceo": "Chris Celtruda",
+    "engine_platforms_covered": [
+      "CF6-80C2 (Boeing 767, A330)",
+      "CFM56-3 (Boeing 737 Classic)",
+      "CFM56-5B (Airbus A320 family)",
+      "CFM56-7B (Boeing 737NG)",
+      "PW4000",
+      "V2500 SelectOne (A320 family)"
+    ],
+    "specific_pma_approvals": {
+      "cf6_80c2": {
+        "parts": "HPT Stage 1 and Stage 2 turbine blades",
+        "anniversary": "20th anniversary of 1st stage HPT blade PMA celebrated",
+        "distribution": "AAR Corp exclusive distributor for global aftermarket (Nov 2024)"
+      },
+      "cfm56_5b_7b": {
+        "hpt_blade": "FAA approved Oct 2025; backlog sold out through 2025, customers reserving 2026 slots",
+        "lpt_stage1_ngv": "FAA approved; includes 'up-change' part number covering updated configuration",
+        "total_planned_parts": "5 hot-section parts planned for FTAI joint venture"
+      },
+      "v2500_selectone": {
+        "parts_in_development": "6 different turbine blade types with Lufthansa Technik",
+        "certified_so_far": [
+          "2nd stage HPT blade",
+          "7th stage HPC blade"
+        ]
+      }
+    },
+    "cost_savings": {
+      "cfm56_hpt_vane_example": "PMA sells for ~$5,000 vs GE OEM at ~$20,000 (75% discount)",
+      "general_engine_pma_discount": "20-70% below OEM depending on part",
+      "cf6_50_overhaul_reduction": "20-25% reduction in total engine overhaul cost through PMA/DER"
+    },
+    "ftai_joint_venture": {
+      "partner": "FTAI Aviation",
+      "started": 2021,
+      "focus": "CFM56 hot-section PMA parts",
+      "parts_planned": 5,
+      "parts_approved_so_far": 2,
+      "savings_per_shop_visit": "$2 million with all 5 parts approved",
+      "ebitda_per_module": "$1 million (50% driven by Chromalloy PMAs)",
+      "80_percent_savings_from_first_3_parts": true,
+      "ftai_discount_vs_oem": "60-70% cheaper than OEM parts",
+      "ftai_royalty_to_chromalloy": "25% of sourced profit to third parties"
+    },
+    "market_bifurcation_thesis": "Operators of mid-life engines (CFM56, V2500) focus on cost-of-ownership over residual value, making PMA highly attractive. Younger engines (LEAP) still weight residual value, so OEM parts preferred."
+  },
+
+  "other_pma_manufacturers": {
+    "jet_parts_engineering": {
+      "pma_count": "1,400+ parts in catalog",
+      "founded": 1994,
+      "specialty": "Reverse-engineered FAA-PMA parts and DER repairs for expendable aircraft components",
+      "market_commentary": "PMA market remains strong with steady expansion from long-time users and adoption from first-time customers"
+    },
+    "able_aerospace_textron": {
+      "parent": "Textron Inc.",
+      "status": "Major PMA market player",
+      "focus": "Helicopter and fixed-wing component PMA"
+    },
+    "pma_aeroparts": {
+      "specialty": "FAA-approved replacement aircraft parts",
+      "value_prop": "Shorter lead times and substantial cost savings vs OEM"
+    },
+    "ametek_inc": {
+      "status": "Major PMA market player",
+      "focus": "Electronic instruments, electromechanical devices"
+    },
+    "spirit_aerosystems": {
+      "status": "Major PMA market player (now part of Boeing)",
+      "focus": "Aerostructures"
+    },
+    "aerospares": {
+      "pma_count": "30+ PMAs",
+      "specialty": "Pressure sensors and switches"
+    },
+    "delta_flight_products": {
+      "parent": "Delta Air Lines",
+      "recent_pma": "Received FAA PMA from MIDO for certain replacement aircraft parts",
+      "significance": "Airlines themselves are becoming PMA manufacturers"
+    },
+    "honeywell_aerospace": {
+      "note": "In Jan 2024, received FAA approval for PMA parts for CFM56-5B engine",
+      "significance": "Even large OEMs are pursuing PMA for competitor engines"
+    }
+  },
+
+  "transdigm_vs_pma_battle": {
+    "transdigm_business_model": {
+      "sole_source_percentage": "80% of sales from sole-source parts",
+      "proprietary_percentage": "90% of products are proprietary IP",
+      "avg_part_cost": "~$1,000 average; 90% cost less than $5,000",
+      "ebitda_margin": "~53% on aftermarket segment",
+      "strategy": "Acquire companies with sole-source contracts, raise prices"
+    },
+    "why_pma_struggles_against_transdigm": [
+      "PMA only economical for parts retailing $5,000+; 90% of TransDigm parts below this threshold",
+      "Low-value, low-volume parts are extremely difficult/uneconomical to PMA",
+      "Up-front design and qualification costs too high relative to addressable revenue on small parts",
+      "TransDigm's proprietary designs include unique IP and features harder to replicate",
+      "Airlines find it hard to switch away from sole-source parts embedded in their maintenance programs"
+    ],
+    "where_pma_can_win": [
+      "High-value parts (>$5,000) with sufficient volume",
+      "Engine hot-section components (Chromalloy's sweet spot)",
+      "Parts where TransDigm has raised prices aggressively, creating economic incentive for PMA",
+      "Categories where multiple airlines request alternatives simultaneously"
+    ],
+    "pentagon_dod_audit_findings": {
+      "excess_profit_identified": "$20.8 million on 105 spare parts over 2.5 years",
+      "worst_profit_margin_found": "3,850.6% on a single part",
+      "case_study_metal_pin": "$4,361 charged for half-inch metal pin (9,400% profit)",
+      "case_study_valve": "Price increased from $543 to $9,801 (2013-2015)",
+      "case_study_clutch_disk": "$1,443 charged for part costing $32 to make",
+      "data_disclosure": "TransDigm refused cost/pricing data for 15 of 16 sampled contracts (2015-2017)",
+      "regulatory_loophole": "95%+ of DOD contracts fell below mandatory disclosure thresholds",
+      "congressional_response": "Bipartisan outrage; lawmakers pushing anti-gouging legislation for military parts"
+    },
+    "arbitrage_implication": "TransDigm parts >$5,000 with military AND commercial demand are the most attractive PMA targets. DOD audits publicly identify the most overpriced parts, creating a roadmap for PMA opportunity."
+  },
+
+  "faa_pma_approval_data": {
+    "database": "FAA Dynamic Regulatory System (DRS) at drs.faa.gov",
+    "searchable_by": ["PMA holder", "Article name", "Part number", "Approval basis", "Aircraft make/model"],
+    "us_approvals_2023": "2,400+",
+    "worldwide_approvals_2023": "3,600+",
+    "engine_pma_page": "faa.gov/aircraft/air_cert/design_approvals/engine_prop/engine_approvals/engines_pma_approvals",
+    "note": "Granular 2024-2025 approval counts not publicly aggregated; must be queried from DRS database directly"
+  },
+
+  "airline_pma_adoption": {
+    "overall_trend": "Adoption accelerating, driven by supply chain strain and cost pressure",
+    "primary_driver_2024_2025": "Parts availability (not just cost) - 'need for parts NOW' is dominant factor",
+    "airlines_known_to_use_pma": {
+      "delta_air_lines": {
+        "status": "One of the strongest PMA proponents in the industry",
+        "activity": "Delta TechOps has developed and certified hundreds of PMA parts in-house",
+        "savings": "Multi-million dollar annual savings",
+        "unique": "Delta Flight Products now holds its own PMA manufacturing approval"
+      },
+      "american_airlines": {
+        "status": "Active in MARPA air carrier committee",
+        "involvement": "Engaged in PMA adoption discussions at industry level"
+      },
+      "united_airlines": {
+        "status": "Active in MARPA air carrier committee",
+        "involvement": "Engaged in PMA adoption discussions at industry level"
+      },
+      "british_airways": {
+        "note": "HEICO received BA's first PMA parts order (historic milestone for European acceptance)"
+      },
+      "lufthansa_group": {
+        "status": "Deep PMA engagement through Lufthansa Technik",
+        "partnerships": "Joint PMA development with Chromalloy (V2500, CF6, CFM56)",
+        "ownership": "Lufthansa Technik holds 20% stake in HEICO Aerospace"
+      },
+      "low_cost_carriers": {
+        "trend": "Growth of regional and low-cost carriers increases PMA demand",
+        "driver": "Cost optimization imperative makes PMA highly attractive"
+      }
+    },
+    "leasing_company_acceptance": "Mixed - lessors focused on residual value may resist PMA for younger engines, but mid-life assets increasingly accept PMA"
+  },
+
+  "actionable_arbitrage_opportunities": {
+    "opportunity_1_cfm56_hot_section": {
+      "description": "CFM56 engine PMA parts are the hottest segment in PMA right now",
+      "why": "CFM56 has largest installed base, engines are mid-life, operators focused on cost not residual value",
+      "players": "Chromalloy (manufacturer), FTAI (user/partner), AAR (distributor)",
+      "savings": "$2M per shop visit with full PMA suite; individual parts 60-75% below OEM",
+      "demand_signal": "Chromalloy backlog sold out through end of 2025, customers booking 2026",
+      "action": "Source CFM56 PMA parts from Chromalloy/AAR channel; sell to independent MROs not yet using PMA"
+    },
+    "opportunity_2_transdigm_high_value_parts": {
+      "description": "Identify TransDigm sole-source parts >$5,000 with PMA alternatives",
+      "why": "DOD audits reveal specific parts with 1,000-9,000%+ margins; PMA alternatives dramatically undercut",
+      "action": "Cross-reference TransDigm subsidiary part numbers against HEICO PMA catalog and FAA DRS for alternatives",
+      "data_source": "DOD IG reports publicly name overpriced parts; FAA DRS shows PMA alternatives"
+    },
+    "opportunity_3_v2500_pma_emerging": {
+      "description": "V2500 engine PMA is earlier-stage than CFM56 - get in early",
+      "why": "Chromalloy + Lufthansa Technik developing 6 blade types; only 2 certified so far",
+      "action": "Monitor Chromalloy/LHT announcements for new V2500 PMA certifications; position as early supplier to V2500 MRO shops"
+    },
+    "opportunity_4_pma_for_new_gen_engines": {
+      "description": "LEAP and GTF engines will need PMA in 3-5 years as they enter mid-life",
+      "why": "Current PMA focus is legacy engines; first-mover advantage on LEAP/GTF PMA distribution",
+      "timeline": "LEAP fleet entering first shop visits now; PMA development takes 2-3 years",
+      "action": "Track HEICO and others' LEAP PMA filings in FAA DRS; build relationships with MROs servicing LEAP"
+    },
+    "opportunity_5_asia_pacific_distribution": {
+      "description": "APAC is fastest-growing PMA market (30%+ share, 41% of growth)",
+      "why": "Asian carriers rapidly expanding fleets, cost-sensitive, increasingly accepting PMA",
+      "action": "Partner with HEICO/Chromalloy for APAC distribution of PMA parts"
+    }
+  },
+
+  "key_data_sources_for_monitoring": [
+    {
+      "source": "FAA DRS (drs.faa.gov)",
+      "what_to_monitor": "New PMA approvals by company, engine type, and part category",
+      "frequency": "Weekly"
+    },
+    {
+      "source": "HEICO quarterly earnings calls",
+      "what_to_monitor": "New PMA counts, FSG revenue growth, discount trends, new aircraft/engine coverage",
+      "frequency": "Quarterly"
+    },
+    {
+      "source": "Chromalloy press releases",
+      "what_to_monitor": "New engine PMA certifications, FTAI JV progress, V2500 approvals",
+      "frequency": "Monthly"
+    },
+    {
+      "source": "MARPA (pmaparts.org) annual conference and publications",
+      "what_to_monitor": "Industry adoption trends, new members, regulatory changes",
+      "frequency": "Annually + conference (2025 conference scheduled)"
+    },
+    {
+      "source": "DOD Inspector General reports (dodig.mil)",
+      "what_to_monitor": "TransDigm audit findings identifying overpriced sole-source parts",
+      "frequency": "As published"
+    },
+    {
+      "source": "FTAI Aviation earnings calls",
+      "what_to_monitor": "Chromalloy PMA progress, module cost savings, new engine platforms",
+      "frequency": "Quarterly"
+    },
+    {
+      "source": "Aviation Week MRO coverage",
+      "what_to_monitor": "PMA acceptance trends, new entrants, OEM responses",
+      "frequency": "Weekly"
+    }
+  ]
+}
